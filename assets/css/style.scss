@@ -99,6 +99,9 @@ small {
 
   
 @media print, screen and (max-width: 960px)
+header {
+  width: 100%;
+}
 section {
   padding: 50px;
 }
