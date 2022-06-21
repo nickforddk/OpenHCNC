@@ -31,6 +31,9 @@ body, h1, h1.header, h2, h3, h4, h5, h6, th {
 a {
   color: var(--tertiary);
 }
+a:hover, a:active {
+  opacity: 0.9;
+}
 
 h1 {
   font-variation-settings: 'wdth' 125;
@@ -52,4 +55,10 @@ header {
   background-color: var(--tertiary);
   color: var(--white);
   border: 0px;
+}
+header li {
+  border: 0px;
+  border-radius: 0px;
+  box-shadow: none;
+  background: var(--primary);
 }
