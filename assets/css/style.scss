@@ -104,6 +104,10 @@ section {
 }
 
 @media print, screen and (max-width: 720px)
+header {
+  width: 100%;
+  margin: 0px;
+}
 section {
   padding: 50px 20px;
 }
