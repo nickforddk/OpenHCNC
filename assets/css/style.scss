@@ -22,7 +22,7 @@
 body {
   background-color: var(--background);
   color: var(--foreground);
-  font-size: 16px;
+  font-size: 18px;
 }
 
 body, h1, h1.header, h2, h3, h4, h5, h6, th {
@@ -43,7 +43,7 @@ h1 {
 
 h1.header, h4, h5, h6, th {
   font-variation-settings: 'wdth' 75;
-  font-weight: 800;
+  font-weight: 900;
 }
 
 h1.header::after {
