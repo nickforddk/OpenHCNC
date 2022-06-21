@@ -1,1 +1,7 @@
 theme: jekyll-theme-dinky
+remote_theme: pages-themes/dinky@v0.2.0
+
+title: Human Capital in the Nordic Countries (HCNC)
+description: Repository for the HCNC project
+
+show_downloads: false
