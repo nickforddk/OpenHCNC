@@ -12,6 +12,7 @@
   --secondary: #FFB618;
   --tertiary: #6D435A;
   --black: #000000;
+  --white: #FFFFFF;
   --yes: #6CE02D;
   --no: #FF241C;
   --alert: #FFE018;
@@ -19,6 +20,7 @@
 
 body {
   background-color: var(--background);
+  color: var(--foreground);
 }
 
 body, h1, h1.header, h2, h3, h4, h5, h6, th {
@@ -43,6 +45,6 @@ h1.header::after {
 
 header {
   background-color: var(--tertiary);
-  color: var(--background);
+  color: var(--white);
   border: 0px;
 }
