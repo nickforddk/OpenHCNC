@@ -79,9 +79,11 @@ header li:active, header li:hover {
 
 section {
   line-height: 1.8em;
-  max-width: 650px;
+  max-width: 750px;
+  width: fit-content;
   margin: auto;
   float: none;
+  padding: 50px 100px 50px 350px;
 }
 
 small {
