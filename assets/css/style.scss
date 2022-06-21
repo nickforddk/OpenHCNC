@@ -35,9 +35,12 @@ body, h1, h1.header, h2, h3, h4, h5, h6, th {
 
 a {
   color: var(--foreground2);
+  text-decoration: underline dotted var(--foreground2) 1px;
+  text-underline-offset: 0.18ch;
 }
 a:hover, a:active {
   opacity: 0.9;
+  text-decoration: underline solid;
 }
 
 h1 {
