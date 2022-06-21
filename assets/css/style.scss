@@ -46,7 +46,8 @@ h1.header, h4, h5, h6, th {
 }
 
 h1.header::after {
-  content: "(HCNC)";
+  content: " (HCNC)";
+  font-size: 0.7rem;
   font-weight: 300;
   margin-left: 0.5em;
   color: var(--secondary);
