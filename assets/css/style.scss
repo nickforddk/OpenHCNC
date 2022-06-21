@@ -13,8 +13,12 @@ body, h1, h1.header, h2, h3, h4, h5, h6, th {
   font-family: Archivo, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-h1, h1.header, h2, h3 {
-  font-weight: 800;
+h1 {
+  font-variation-settings: 'wdth' 125;
 }
 
+h1.header, h4, h5, h6, th {
+  font-variation-settings: 'wdth' 75;
+  font-weight: 800;
+}
 
