@@ -100,7 +100,8 @@ small {
   
 @media print, screen and (max-width: 960px) {
   header {
-    width: 100%;
+    width: auto;
+    margin: 0px;
   }
   section {
     padding: 50px;
@@ -109,7 +110,7 @@ small {
 
 @media print, screen and (max-width: 720px) {
   header {
-    width: 100%;
+    width: auto;
     margin: 0px;
     padding: 40px 20px 20px 20px;
   }
