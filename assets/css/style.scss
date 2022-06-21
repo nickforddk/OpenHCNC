@@ -69,6 +69,5 @@ header li {
 }
 header li:active, header li:hover {
   background: none;
-  color: var(--alert);
-  border: 3px solid var(--secondary);
+  border: 3px solid var(--alert);
 }
