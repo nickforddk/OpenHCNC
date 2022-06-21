@@ -96,3 +96,9 @@ small {
   margin: 0px;
   width: 100%;
 }
+
+  
+@media print, screen and (max-width: 960px)
+section {
+  padding: 50px 20px;
+}
