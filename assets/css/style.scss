@@ -8,6 +8,7 @@
 
 :root {
   --foreground: #222222;
+  --foreground2: #1F6F6A;
   --background: #ffffff;
   --background2: #f7fff7ff; 
   --primary: #4ecdc4ff;
@@ -33,7 +34,7 @@ body, h1, h1.header, h2, h3, h4, h5, h6, th {
 }
 
 a {
-  color: var(--tertiary);
+  color: var(--foreground2);
 }
 a:hover, a:active {
   opacity: 0.9;
