@@ -100,5 +100,10 @@ small {
   
 @media print, screen and (max-width: 960px)
 section {
+  padding: 50px;
+}
+
+@media print, screen and (max-width: 720px)
+section {
   padding: 50px 20px;
 }
