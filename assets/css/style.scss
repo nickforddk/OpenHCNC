@@ -5,8 +5,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans');
 @import url('https://fonts.googleapis.com/css2?family=Archivo');
 
+:root {
+  --foreground: #222222;
+  --background: #ffffff;
+  --primary: #00A0BC;
+  --secondary: #FFB618;
+  --tertiary: #6D435A;
+  --black: #000000;
+  --yes: #6CE02D;
+  --no: #FF241C;
+  --alert: #FFE018;
+}
+
 body {
-  background-color: #FFFFFF;
+  background-color: var(--background);
 }
 
 body, h1, h1.header, h2, h3, h4, h5, h6, th {
@@ -15,10 +27,17 @@ body, h1, h1.header, h2, h3, h4, h5, h6, th {
 
 h1 {
   font-variation-settings: 'wdth' 125;
+  color: var(--primary);
 }
 
 h1.header, h4, h5, h6, th {
   font-variation-settings: 'wdth' 75;
   font-weight: 800;
+}
+
+h1.header::after {
+  content: "(HCNC)";
+  font-weight: 300;
+  color: var(--secondary);
 }
 
