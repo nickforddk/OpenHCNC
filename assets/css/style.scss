@@ -4,6 +4,7 @@
 @import "{{ site.theme }}";
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans');
 @import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75,100;100,400;125,900&display=swap');
 
 :root {
   --foreground: #222222;
@@ -47,7 +48,7 @@ h1.header, h4, h5, h6, th {
 
 h1.header::after {
   content: " (HCNC)";
-  font-size: 0.7rem;
+  font-size: 0.7em;
   font-weight: 300;
   margin-left: 0.5em;
   color: var(--secondary);
