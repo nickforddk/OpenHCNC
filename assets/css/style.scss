@@ -67,7 +67,8 @@ header {
 }
 header li {
   border: 0px;
-  border-radius: 0px;
+  border-radius: 3px;
+  height: auto;
   box-shadow: none;
   background: none;
   border: 3px solid var(--secondary);
