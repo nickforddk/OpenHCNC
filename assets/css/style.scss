@@ -63,8 +63,12 @@ header li {
   border: 0px;
   border-radius: 0px;
   box-shadow: none;
-  background: var(--primary);
+  background: none;
+  border: 3px solid var(--secondary);
+  font-variation-settings: 'wdth' 75;
 }
 header li:active, header li:hover {
-  background: var(--primary);
+  background: none;
+  color: var(--alert);
+  border: 3px solid var(--secondary);
 }
