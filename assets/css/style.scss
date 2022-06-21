@@ -23,6 +23,11 @@ body {
   background-color: var(--background);
   color: var(--foreground);
   font-size: 18px;
+  line-height: initial;
+}
+
+.wrapper {
+  line-height: 1.8em;
 }
 
 body, h1, h1.header, h2, h3, h4, h5, h6, th {
@@ -72,4 +77,8 @@ header li {
 header li:active, header li:hover {
   background: none;
   border: 3px solid var(--alert);
+}
+
+small {
+  font-size: 0.8em;
 }
