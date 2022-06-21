@@ -65,3 +65,6 @@ header li {
   box-shadow: none;
   background: var(--primary);
 }
+header li:active, header li:hover {
+  background: var(--primary);
+}
