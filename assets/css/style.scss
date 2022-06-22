@@ -16,9 +16,9 @@
   --light-alt: #acdcff;
   --contrast: #F72585;
   --contrast-alt: #4CC9F0;
-  --primary: #7209B7;
+  --primary: #4361EE;
   --secondary: #3A0CA3;
-  --tertiary: #4361EE;
+  --tertiary: #7209B7;
   --yes: #06d6a0;
   --no: #ef476f;
   --alert: #ffc43d;
@@ -62,7 +62,7 @@ h1.header::before {
   font-size: 0.5em;
   font-weight: 400;
   font-variation-settings: 'wdth' 125;
-  color: var(--secondary);
+  color: var(--contrast-alt);
   display: block;
   line-height: 1.5em;
 }
@@ -77,13 +77,13 @@ header li {
   height: auto;
   box-shadow: none;
   background: none;
-  border: 3px solid var(--light);
+  border: 3px solid var(--light-alt);
   border-radius: 3px;
   font-variation-settings: 'wdth' 75;
 }
 header li:active, header li:hover {
   background: none;
-  border: 3px solid var(--secondary);
+  border: 3px solid var(--contrast-alt);
 }
 header li a {
   text-decoration: none;
