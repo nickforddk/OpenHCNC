@@ -190,7 +190,7 @@ small {
   font-variation-settings: 'wdth' 75;
   text-transform: capitalize;
 }
-.strap a:hover; .strap a:active; .strap a:focus {
+.strap a:hover, .strap a:active, .strap a:focus {
   border: 3px solid var(--light);
   color: var(--light);
 }
