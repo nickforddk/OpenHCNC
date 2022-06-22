@@ -39,6 +39,7 @@ a {
   color: var(--dark-alt);
   text-decoration: underline dotted var(--light-alt) 1px;
   text-underline-offset: 0.18ch;
+  font-weight: 500;
 }
 a:hover, a:active {
   opacity: 0.9;
