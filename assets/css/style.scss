@@ -165,8 +165,8 @@ tbody td {
   border-bottom: 1px solid var(--light-alt);
 }
 
-tbody tr:nth-child(even) td
-  background-color: var(--light-alt);
+tbody tr:nth-child(even) td {
+  background: var(--light-alt);
 }
   
 @media print, screen and (max-width: 960px) {
