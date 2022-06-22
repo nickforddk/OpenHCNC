@@ -131,6 +131,7 @@ footer + div {
 section {
   line-height: 1.8em;
   max-width: 750px;
+  min-height: calc(100vh-60px);
   width: auto;
   margin: auto;
   float: none;
