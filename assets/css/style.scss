@@ -173,7 +173,8 @@ small {
 }
 
 .strap {
-  float: left;
+  margin-bottom: -16px;
+  line-height: 1em;
 }
 .strap a {
   display: inline-block;
@@ -183,6 +184,7 @@ small {
   color: var(--contrast);
   border-radius: 3px;
   font-variation-settings: 'wdth' 75;
+  text-transform: capitalize;
 }
 
 table {
