@@ -162,6 +162,10 @@ section {
   padding: 30px 100px 30px 400px;
 }
 
+section ul + li {
+  margin-top: -20px;
+}
+
 small {
   font-size: 0.8em;
 }
