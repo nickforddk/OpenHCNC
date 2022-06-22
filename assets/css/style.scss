@@ -8,18 +8,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,100..900&display=swap');
 
 :root {
-  --foreground: #011627;
+  --foreground: #222222;
   --background: #ffffff;
-  --light: #fdfffc;
-  --dark: #00798c;
-  --black: #000000;
-  --white: #FFFFFF;
-  --primary: #2ec4b6;
-  --secondary: #e71d36;
-  --tertiary: #ff9f1c;
+  --dark: #4a006f;
+  --dark-alt: #3259b3;
+  --light: #e4a5ff;
+  --light-alt: #acdcff;
+  --contrast: #F72585;
+  --contrast-alt: #4CC9F0;
+  --primary: #7209B7;
+  --secondary: #3A0CA3;
+  --tertiary: #4361EE;
   --yes: #06d6a0;
   --no: #ef476f;
-  --alert: ##ffc43d;
+  --alert: #ffc43d;
+  --black: #000000;
+  --white: #FFFFFF;
 }  
 
 body {
@@ -35,8 +39,8 @@ body, h1, h1.header, h2, h3, h4, h5, h6, th {
 }
 
 a {
-  color: var(--dark);
-  text-decoration: underline dotted var(--light) 1px;
+  color: var(--dark-alt);
+  text-decoration: underline dotted var(--light-alt) 1px;
   text-underline-offset: 0.18ch;
 }
 a:hover, a:active {
@@ -64,7 +68,7 @@ h1.header::before {
 }
 
 header {
-  background-color: var(--tertiary);
+  background-color: var(--dark);
   color: var(--white);
   border: 0px;
   width: 250px;
