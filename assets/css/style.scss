@@ -74,6 +74,12 @@ h1::after {
   background: linear-gradient(to right, var(--light) 0%, var(--light-alt) 100%);
   margin-top: 10px;
 }
+h1 + p strong:first-child {
+  color: var(--context);
+  font-size: 1.2em;
+  font-variation-settings: 'wdth' 75;
+  font-weight: 500;
+}
 
 h2 {
   font-variation-settings: 'wdth' 125;
