@@ -120,6 +120,7 @@ header li a {
 footer {
   color: var(--dark-alt);
   position: initial;
+  padding-bottom: 20px;
 }
 
 footer + div {
@@ -161,6 +162,7 @@ small {
   }
   footer + div {
     height: 30px;
+    margin: 0px;
   }
   header ul {
     right: 50px;
