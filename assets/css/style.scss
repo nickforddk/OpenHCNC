@@ -81,6 +81,9 @@ header li:active, header li:hover {
   background: none;
   border: 3px solid var(--secondary);
 }
+header li a {
+  text-decoration: none;
+}
 
 section {
   line-height: 1.8em;
