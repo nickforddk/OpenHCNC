@@ -93,12 +93,13 @@ h1.header::after {
   background: none;
 }
 
-header {
-  /*background-color: var(--dark);*/
-  background: radial-gradient(ellipse at top left, var(--dark) 0%, var(--dark-alt) 60%, var(--contrast-alt) 90%, var(--light-alt) 100%);
-  color: var(--white);
+header, footer {
   border: 0px;
   width: 250px;
+}
+header {
+  background: radial-gradient(ellipse at top left, var(--dark) 0%, var(--dark-alt) 60%, var(--contrast-alt) 90%, var(--light-alt) 100%);
+  color: var(--white);
 }
 header li {
   height: auto;
@@ -114,6 +115,14 @@ header li:active, header li:hover {
 }
 header li a {
   text-decoration: none;
+}
+
+footer::after {
+  content: "";
+  display: block;
+  height: 20px;
+  background: linear-gradient(to right, var(--contrast) 0%, var(--contrast-alt) 100%);
+  margin: 20px 0px 0px 0px;  
 }
 
 section {
