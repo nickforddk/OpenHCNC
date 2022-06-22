@@ -131,6 +131,7 @@ header li {
   border: none;
   font-variation-settings: 'wdth' 75;
   padding: 0px;
+  width: 150px;
 }
 header li:active, header li:hover {
   background: none;
@@ -152,6 +153,7 @@ header li a.buttons {
   background-position-x: 7px !important;
   background-position-y: center !important;
   text-shadow: none;
+  padding: 6px 6px 6px 30px;
 }
 header li a.ext {
   background: url(../images/extlink.png) no-repeat;
