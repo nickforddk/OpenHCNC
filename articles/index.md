@@ -1,1 +1,2 @@
-
+# Articles
+{{ site.pages }}
