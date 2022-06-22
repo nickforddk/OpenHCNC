@@ -75,8 +75,8 @@ h1::after {
   margin-top: 10px;
 }
 h1 + p strong:only-child {
-  color: var(--context);
-  font-size: 1.2em;
+  color: var(--dark);
+  font-size: 1.5em;
   font-variation-settings: 'wdth' 75;
   font-weight: 500;
 }
