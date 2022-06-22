@@ -9,14 +9,14 @@
 
 :root {
   --foreground: #222222;
-  --foreground2: #1F6F6A;
   --background: #ffffff;
-  --background2: #f7fff7ff; 
+  --light: #f7fff7ff; 
+  --dark: #1F6F6A;
+  --black: #000000;
+  --white: #FFFFFF;
   --primary: #4ecdc4ff;
   --secondary: #ff6b6bff;
   --tertiary: #292f36ff;
-  --black: #000000;
-  --white: #FFFFFF;
   --yes: #6CE02D;
   --no: #FF241C;
   --alert: #ffe66dff;
@@ -35,13 +35,12 @@ body, h1, h1.header, h2, h3, h4, h5, h6, th {
 }
 
 a {
-  color: var(--foreground2);
-  text-decoration: underline dotted var(--foreground2) 1px;
+  color: var(--dark);
+  text-decoration: underline dotted var(--light) 1px;
   text-underline-offset: 0.18ch;
 }
 a:hover, a:active {
   opacity: 0.9;
-  text-decoration: underline solid;
 }
 
 h1 {
@@ -74,13 +73,13 @@ header li {
   height: auto;
   box-shadow: none;
   background: none;
-  border: 3px solid var(--secondary);
+  border: 3px solid var(--light);
   border-radius: 3px;
   font-variation-settings: 'wdth' 75;
 }
 header li:active, header li:hover {
   background: none;
-  border: 3px solid var(--alert);
+  border: 3px solid var(--secondary);
 }
 
 section {
