@@ -15,5 +15,5 @@ title: "HCNC"
 - Flowchart
 
 ## Papers
-1. Education and industrialisation (descriptive)
-2. Lessons from Oslo
+1. [Education and industrialisation (descriptive)](articles/descriptives)
+2. [Lessons from Oslo](articles/oslo)
