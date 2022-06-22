@@ -45,23 +45,6 @@ a:hover, a:active, a:focus {
   opacity: 0.9;
 }
 
-a.buttons {
-  background: url(../images/link.png) no-repeat;
-  background-size: 15px !important;
-  background-position-y: center !important;
-  text-shadow: none;
-}
-a.ext {
-  background: url(../images/extlink.png) no-repeat;
-}
-a.github {
-  background: url(../images/github.png) no-repeat;
-}
-a.home {
-  background: url(../images/home.png) no-repeat;
-}
-
-
 h1 {
   font-variation-settings: 'wdth' 125;
   color: var(--primary);
@@ -124,7 +107,8 @@ header {
   background: radial-gradient(ellipse at top left, var(--dark) 0%, var(--dark-alt) 60%, var(--contrast-alt) 90%, var(--light-alt) 100%);
   color: var(--white);
 }
-header li {
+
+/*header li {
   height: auto;
   box-shadow: none;
   background: none;
@@ -138,6 +122,44 @@ header li:active, header li:hover {
 }
 header li a {
   text-decoration: none;
+}*/
+
+header li {
+  height: auto;
+  box-shadow: none;
+  background: none;
+  border: none;
+  font-variation-settings: 'wdth' 75;
+  padding: 0px;
+}
+header li:active, header li:hover {
+  background: none;
+}
+header li a {
+  text-decoration: none;
+  border: 3px solid var(--light-alt);
+  border-radius: 3px;
+  padding: 6px;
+}
+header li a:active, header li a:hover, header li a:focus {
+  border: 3px solid var(--contrast-alt);
+}
+
+header li a.buttons {
+  background: url(../images/link.png) no-repeat;
+  background-size: 15px !important;
+  background-position-x: 7px !important;
+  background-position-y: center !important;
+  text-shadow: none;
+}
+header li a.ext {
+  background: url(../images/extlink.png) no-repeat;
+}
+header li a.github {
+  background: url(../images/github.png) no-repeat;
+}
+header li a.home {
+  background: url(../images/home.png) no-repeat;
 }
 
 footer {
