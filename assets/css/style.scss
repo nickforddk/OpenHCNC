@@ -198,6 +198,11 @@ small {
 table {
   border: 0px;
   border-spacing: 0px;
+  display: block;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 
 thead th {
