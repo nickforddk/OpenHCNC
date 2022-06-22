@@ -121,8 +121,7 @@ footer {
   color: var(--dark-alt);
 }
 
-footer::after {
-  content: "";
+footer + div {
   display: block;
   height: 20px;
   background: linear-gradient(to right, var(--contrast) 0%, var(--contrast-alt) 100%);
