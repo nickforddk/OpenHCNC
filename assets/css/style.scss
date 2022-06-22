@@ -56,8 +56,9 @@ h1 {
 h1::after {
   content: "";
   display: block;
-  height: 5px;
+  height: 3px;
   background: linear-gradient(to right, var(--light) 0%, var(--light-alt) 100%);
+  margin-top: 10px;
 }
 
 h2 {
