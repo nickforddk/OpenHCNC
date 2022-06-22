@@ -47,7 +47,8 @@ a:hover, a:active {
 
 a.buttons {
   background: url(../images/link.png) no-repeat;
-  background-size: 15px;
+  background-size: 15px !important;
+  background-position-y: center !important;
   text-shadow: none;
 }
 a.github {
