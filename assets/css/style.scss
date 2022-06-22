@@ -50,12 +50,18 @@ a:hover, a:active {
 h1 {
   font-variation-settings: 'wdth' 125;
   color: var(--primary);
+  font-size: 2em;
 }
 
-h1 {
+h2 {
   font-variation-settings: 'wdth' 125;
   color: var(--secondary);
-  font-size:
+  font-size: 1.8em;
+}
+
+h3 {
+  color: var(--secondary);
+  font-size: 1.7em;
 }
 
 h1.header, h4, h5, h6, th {
