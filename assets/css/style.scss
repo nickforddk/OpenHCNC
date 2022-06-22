@@ -45,6 +45,18 @@ a:hover, a:active {
   opacity: 0.9;
 }
 
+a.buttons {
+  background: url(../images/link.png) no-repeat;
+  background-size: 15px;
+  text-shadow: none;
+}
+a.github {
+  background: url(../images/github.png) no-repeat;
+}
+a.home {
+  background: url(../images/home.png) no-repeat;
+}
+
 h1 {
   font-variation-settings: 'wdth' 125;
   color: var(--primary);
