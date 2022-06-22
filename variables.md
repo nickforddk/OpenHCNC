@@ -1,10 +1,9 @@
 ---
-layout: page
 title: "Variables"
 permalink: /variables/
 ---
 
-# Variables
+# {{ page.title }}
 
 Kl: Grade lists
 Bg: Biographies
