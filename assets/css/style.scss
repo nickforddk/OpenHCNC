@@ -68,7 +68,8 @@ h1.header::before {
 }
 
 header {
-  background-color: var(--dark);
+  /*background-color: var(--dark);*/
+  background: radial-gradient(ellipse at top left, var(--dark) 0%, var(dark-alt) 100%);
   color: var(--white);
   border: 0px;
   width: 250px;
