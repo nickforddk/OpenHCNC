@@ -80,13 +80,13 @@ h1.header {
 
 h1.header::before {
   content: "HCNC";
-  font-size: 2em;
-  font-weight: 100;
+  font-size: 0.75em;
+  font-weight: 300;
   font-variation-settings: 'wdth' 125;
-  color: var(--dark-alt);
-  margin: 0px 0px -50px -75px;
+  color: var(--contrast);
+  margin: 0px;
   display: block;
-  line-height: 1em;
+  line-height: 1.5em;
 }
 h1.header::after {
   height: 0px;
@@ -95,7 +95,7 @@ h1.header::after {
 
 header {
   /*background-color: var(--dark);*/
-  background: radial-gradient(ellipse at top left, var(--dark) 0%, var(--dark-alt) 50%, var(--contrast-alt) 90%, var(--light-alt) 100%);
+  background: radial-gradient(ellipse at top left, var(--dark) 0%, var(--dark-alt) 60%, var(--contrast-alt) 90%, var(--light-alt) 100%)
   color: var(--white);
   border: 0px;
   width: 250px;
