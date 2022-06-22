@@ -39,7 +39,7 @@ a {
   color: var(--dark-alt);
   text-decoration: underline dotted var(--light-alt) 1px;
   text-underline-offset: 0.18ch;
-  font-weight: 500;
+  font-weight: inherit;
 }
 a:hover, a:active {
   opacity: 0.9;
@@ -72,17 +72,21 @@ h3 {
 
 h1.header, h4, h5, h6, th {
   font-variation-settings: 'wdth' 75;
-  font-weight: 800;
+}
+h1.header {
+  font-weight: 500;
+  font-size: 1.8em;
 }
 
 h1.header::before {
   content: "HCNC";
-  font-size: 0.5em;
-  font-weight: 400;
+  font-size: 2em;
+  font-weight: 100;
   font-variation-settings: 'wdth' 125;
-  color: var(--contrast-alt);
+  color: var(--dark-alt);
+  margin: 0px 0px .75px -75px;
   display: block;
-  line-height: 1.5em;
+  line-height: 1em;
 }
 h1.header::after {
   height: 0px;
