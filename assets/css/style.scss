@@ -2,7 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0..1,75..125,100..900&display=swap');
 
 :root {
   --foreground: #222222;
@@ -60,6 +60,7 @@ a.github {
 a.home {
   background: url(../images/home.png) no-repeat;
 }
+
 
 h1 {
   font-variation-settings: 'wdth' 125;
@@ -164,6 +165,9 @@ section {
 
 section p + ul, section p + ol {
   margin-top: -20px;
+}
+section p em {
+  color: var(--dark);
 }
 
 small {
