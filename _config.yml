@@ -5,3 +5,5 @@ title: Human Capital in the Nordic Countries
 description: Repository for the HCNC project
 
 show_downloads: false
+
+permalink: /:slug
