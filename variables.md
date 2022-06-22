@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Variables"
+permalink: /variables/
 ---
 
 # Variables
