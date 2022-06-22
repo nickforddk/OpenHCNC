@@ -117,6 +117,10 @@ header li a {
   text-decoration: none;
 }
 
+footer {
+  color: var(--dark-alt);
+}
+
 footer::after {
   content: "";
   display: block;
