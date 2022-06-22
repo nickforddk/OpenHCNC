@@ -1,5 +1,7 @@
 ---
 title: "Lessons from Oslo"
+layout: article
+permalink: /articles/oslo/
 ---
 
 # {{ page.title }}
