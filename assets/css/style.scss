@@ -162,7 +162,7 @@ section {
   padding: 30px 100px 30px 400px;
 }
 
-section p ~ ul, section p ~ ol {
+section p + ul, section p + ol {
   margin-top: -20px;
 }
 
