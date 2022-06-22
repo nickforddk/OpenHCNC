@@ -1,5 +1,6 @@
 ---
 title: "Education and industrialisation"
+permalink: /articles/descriptives/
 ---
 
 # {{ page.title }}
