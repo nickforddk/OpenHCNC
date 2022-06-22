@@ -203,10 +203,6 @@ table {
   border: 0px;
   border-spacing: 0px;
   display: block;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-  overflow-x: auto;
-  white-space: nowrap;
 }
 
 thead th {
@@ -217,6 +213,10 @@ thead th {
 tbody td {
   background: none;
   border-bottom: 1px solid var(--light);
+}
+
+thead tbody tfoot {
+  white-space: normal;
 }
   
 @media print, screen and (max-width: 960px) {
@@ -238,6 +238,13 @@ tbody td {
   }
   section {
     padding: 50px;
+  }
+  
+  table {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    overflow-x: auto;
+    white-space: nowrap;
   }
 }
 
