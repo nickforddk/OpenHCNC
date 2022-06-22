@@ -162,7 +162,7 @@ section {
   padding: 30px 100px 30px 400px;
 }
 
-section ul + li {
+section ul + li, section ol + li {
   margin-top: -20px;
 }
 
@@ -177,7 +177,7 @@ small {
 }
 
 .strap {
-  margin-bottom: -16px;
+  margin-bottom: -20px;
   line-height: 1em;
 }
 .strap a {
