@@ -150,6 +150,23 @@ small {
   width: 100%;
 }
 
+table {
+  border: 0px;
+  border-spacing: 0px;
+}
+
+th td {
+  background: var(--tertiary);
+  color: var(--white);
+}
+
+tbody td {
+  background: none;
+}
+
+tbody tr:nth-child(even) td
+    background-color: var(--light);
+}
   
 @media print, screen and (max-width: 960px) {
   header, footer {
