@@ -162,7 +162,7 @@ section {
   padding: 30px 100px 30px 400px;
 }
 
-section ul li:first-child, section ol li:first-child {
+section p ~ ul, section p ~ ol {
   margin-top: -20px;
 }
 
