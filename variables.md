@@ -1,3 +1,7 @@
+layout: page
+title: "Variables"
+permalink: /variables/
+
 # Variables
 
 Kl: Grade lists
