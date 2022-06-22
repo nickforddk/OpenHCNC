@@ -55,6 +55,7 @@ h1 {
 h1 {
   font-variation-settings: 'wdth' 125;
   color: var(--secondary);
+  font-size:
 }
 
 h1.header, h4, h5, h6, th {
@@ -131,6 +132,9 @@ small {
 }
 
 @media print, screen and (max-width: 720px) {
+  body {
+    font-size: 16px;
+  }
   header {
     width: auto;
     margin: 0px;
