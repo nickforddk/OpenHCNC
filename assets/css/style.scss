@@ -172,6 +172,19 @@ small {
   width: 100%;
 }
 
+.strap {
+  float: left;
+}
+.strap a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 6px 6px 6px 7px;
+  border: 3px solid var(--contrast);
+  color: var(--contrast);
+  border-radius: 3px;
+  font-variation-settings: 'wdth' 75;
+}
+
 table {
   border: 0px;
   border-spacing: 0px;
