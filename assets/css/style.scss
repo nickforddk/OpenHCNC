@@ -215,7 +215,7 @@ tbody td {
   border-bottom: 1px solid var(--light);
 }
 
-thead tbody tfoot {
+thead, tbody, tfoot {
   white-space: normal;
 }
   
