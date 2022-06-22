@@ -10,6 +10,7 @@ permalink: /
 - Census / population register
 
 ## Variables
+Page
 - Flowchart
 
 ## Papers
