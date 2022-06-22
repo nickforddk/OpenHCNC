@@ -1,5 +1,6 @@
 ---
 title: "Education and industrialisation"
+layout: article
 permalink: /articles/descriptives/
 ---
 
