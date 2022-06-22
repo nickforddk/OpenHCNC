@@ -41,7 +41,7 @@ a {
   text-underline-offset: 0.18ch;
   font-weight: inherit;
 }
-a:hover, a:active {
+a:hover, a:active, a:focus {
   opacity: 0.9;
 }
 
@@ -185,6 +185,10 @@ small {
   border-radius: 3px;
   font-variation-settings: 'wdth' 75;
   text-transform: capitalize;
+}
+.strap a:hover; .strap a:active; .strap a:focus {
+  border: 3px solid var(--light);
+  color: var(--light);
 }
 
 table {
