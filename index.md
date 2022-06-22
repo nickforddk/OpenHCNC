@@ -1,6 +1,5 @@
 ---
 title: "HCNC"
-permalink: /
 ---
 
 
