@@ -15,5 +15,7 @@ title: "HCNC"
 - Flowchart
 
 ## Papers
-1. [Education and industrialisation (descriptive)](articles/descriptives)
-2. [Lessons from Oslo](articles/oslo)
+{% assign articleslist = site.articles | where:"layout", "article" %}
+{% for item in articleslist %}
+1. <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>: {{ item.subtitle }}
+{% endfor %}
