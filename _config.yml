@@ -7,3 +7,11 @@ description: Repository for the HCNC project
 show_downloads: false
 
 permalink: /:slug
+
+collections:
+  articles:
+    output: true
+    permalink: /:collection/:name
+  sources:
+    output: true
+    permalink: /:collection/:name
