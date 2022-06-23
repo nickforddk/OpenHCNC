@@ -1,11 +1,11 @@
 ---
 title: "Education and industrialisation"
+subtitle: "Using novel data sources to construct historical estimates of human capital"
 layout: article
-permalink: /articles/descriptives/
 ---
 
 # {{ page.title }}
-**Using novel data sources to construct historical estimates of human capital**
+**{{ page.subtitle }}**
 
 The purpose of the paper is to:
 - demonstrate a practical application of state-of-art machine learning methods to
