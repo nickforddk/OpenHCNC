@@ -4,9 +4,7 @@ layout: default
 ---
 
 # Articles
-1. [Education and industrialisation (descriptive)](descriptives)
-2. [Lessons from Oslo](oslo)
-
-{% for article in site.articles %}
-- <a href="{{ article.url }}">{{ article.title }}</a>: {{ article.subtitle }}
+{% assign articleslist = site.articles | where:"layout", "article" %}
+{% for item in articleslist %}
+- <a href="{{ item.url }}">{{ item.title }}</a>: {{ item.subtitle }}
 {% endfor %}
