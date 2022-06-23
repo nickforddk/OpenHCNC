@@ -14,4 +14,4 @@ collections:
     permalink: /articles/:name
   sources:
     output: true
-    permalink: /:collection/:name
+    permalink: /sources/:name
