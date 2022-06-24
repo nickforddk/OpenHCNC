@@ -20,13 +20,20 @@
   --no: #ef476f;
   --alert: #ffc43d;
   --black: #000000;
-  --white: #FFFFFF;
+  --white: #FFFFFF;  
+  --font-size--tiny: clamp(0.8rem, 1vw, 0.9rem);
+  --font-size--small: clamp(0.9rem, 1.5vw, 1rem);
+  --font-size--normal: clamp(1rem, 2vw, 1.15rem);
+  --font-size--medium: clamp(1.1rem, 2.2vw, 1.25rem);
+  --font-size--large: clamp(1.4rem, 2.5vw, 1.7rem);
+  --font-size--x-large: clamp(1.5rem, 3vw, 2.4rem);
+  --font-size--huge: clamp(2.2rem, 4vw, 3.2rem);
 }  
 
 body {
   background-color: var(--background);
   color: var(--foreground);
-  font-size: 18px;
+  font-size: var(--font-size--normal);
   line-height: initial;
   padding: 0px;
 }
@@ -48,7 +55,7 @@ a:hover, a:active, a:focus {
 h1 {
   font-variation-settings: 'wdth' 125;
   color: var(--primary);
-  font-size: 2em;
+  font-size: var(--font-size--x-large);
   border: 0px;
 }
 h1::after {
@@ -68,12 +75,12 @@ h1 + p strong:only-child {
 h2 {
   font-variation-settings: 'wdth' 125;
   color: var(--secondary);
-  font-size: 1.8em;
+  font-size: var(--font-size--large);
 }
 
 h3 {
   color: var(--secondary);
-  font-size: 1.7em;
+  font-size: var(--font-size--medium);
 }
 
 h1.header, h4, h5, h6, th {
@@ -81,12 +88,12 @@ h1.header, h4, h5, h6, th {
 }
 h1.header {
   font-weight: 500;
-  font-size: 1.8em;
+  font-size: var(--font-size--large);
 }
 
 h1.header::before {
   content: "HCNC";
-  font-size: 0.75em;
+  font-size: var(--font-size--medium);
   font-weight: 300;
   font-variation-settings: 'wdth' 125;
   color: var(--contrast);
@@ -165,6 +172,9 @@ header li a.github {
 header li a.home {
   background: url(../images/home.png) no-repeat;
 }
+p.header {
+  font-size: var(--font-size--small);
+}
 
 footer {
   color: var(--dark-alt);
@@ -182,7 +192,7 @@ footer + div {
 section {
   line-height: 1.8em;
   max-width: 750px;
-  min-height: calc(100vh - 100px);
+  min-height: calc(100vh - 140px);
   width: auto;
   margin: auto;
   float: none;
@@ -197,7 +207,7 @@ section p em {
 }
 
 small {
-  font-size: 0.8em;
+  font-size: var(--font-size--tiny);
 }
 
 .wrapper {
@@ -275,9 +285,6 @@ thead, tbody, tfoot {
 }
 
 @media print, screen and (max-width: 720px) {
-  body {
-    font-size: 16px;
-  }
   header, footer {
     width: auto;
     margin: 0px;
@@ -285,5 +292,11 @@ thead, tbody, tfoot {
   }
   section {
     padding: 50px 20px;
+  }
+}
+
+@media print, screen and (min-width: 1600px) {
+  section {
+    padding: 30px 400px;
   }
 }
