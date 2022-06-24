@@ -8,6 +8,7 @@ layout: default
 - University (Uni): degree/grades (*embedseksamen*)
 
 ## Progress tracker
+
 | Country | Type | Years | HS | Uni | Transcribed | Linked |
 |---|---|---|---|---|---|---|
 | NO | Matrikkel | .. | Y | Y | Manual | |
@@ -15,6 +16,7 @@ layout: default
 | NO | Exam | 1900-1943 | Y | | | |
 
 ## Test
+
 | Test | | | | | | |
 |---|---|---|---|---|---|---|
 | | | | | | | Test |
