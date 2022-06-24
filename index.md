@@ -8,7 +8,7 @@ The HCNC project is a collaborative endeavour, drawing on researchers at univers
 
 <div class="grid">
   <div>
-    <h2>Sources</h2>
+    <h2><a href="{{ site.baseurl }}/sources">Sources</a></h2>
     {% assign sourceslist = site.sources %}
     <ul>
     {% for item in sourceslist %}
@@ -27,7 +27,7 @@ The HCNC project is a collaborative endeavour, drawing on researchers at univers
   </div>
 
   <div>
-    <h2>Articles</h2>
+    <h2><a href="{{ site.baseurl }}/articles">Articles</a></h2>
     {% assign articleslist = site.articles %}
     <ul>
     {% for item in articleslist %}
