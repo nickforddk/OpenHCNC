@@ -40,6 +40,10 @@
       </header>
 
       <section>
+        <h1>{{ page.title | default: site.title }}</h1>
+        {% if page.subtitle %}
+           <p><strong>{{ page.subtitle }}</strong></p>
+        {% endif %}
         {{ content }}
       </section>
 
