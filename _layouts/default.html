@@ -40,7 +40,7 @@
       </header>
 
       <section>
-        {% if page.collection %}
+        {% if page.collection and page.name != "index.md" %}
            <div class="strap"><a href="{{ site.baseurl }}/{{ page.collection }}/">{{ page.collection }}</a></div>
         {% endif %}
                
