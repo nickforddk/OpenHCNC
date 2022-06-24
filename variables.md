@@ -3,8 +3,6 @@ title: "Variables"
 permalink: /variables/
 ---
 
-# {{ page.title }}
-
 Kl: Grade lists
 Bg: Biographies
 Ft: Census/population register
