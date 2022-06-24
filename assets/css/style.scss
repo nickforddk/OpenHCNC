@@ -302,14 +302,29 @@ ul.bio li.buttons a {
   text-decoration: none;
   padding: 6px 6px 6px 7px;
   border: 3px solid var(--light);
-  color: var(--light);
+  color: var(--white);
   border-radius: 3px;
 }
-ul.bio li.buttons a.website {
+ul.bio li.buttons a:hover, ul.bio li.buttons a:active, ul.bio li.buttons a:focus {
+  border: 3px solid var(--contrast-alt);
 }
-ul.bio li.buttons a.twitter {
+ul.bio li.website a {
+  background: url(../images/link.png) no-repeat;
+  background-size: 15px;
+  background-position-x: center;
+  background-position-y: center;
 }
-ul.bio li.buttons a.github {
+ul.bio li.twitter a {
+  background: url(../images/extlink.png) no-repeat;
+  background-size: 15px;
+  background-position-x: center;
+  background-position-y: center;
+}
+ul.bio li.github a {
+  background: url(../images/github.png) no-repeat;
+  background-size: 15px;
+  background-position-x: center;
+  background-position-y: center;
 }
 
   
