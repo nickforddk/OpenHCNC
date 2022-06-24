@@ -281,8 +281,8 @@ ul.bio > li > span {
   font-variation-settings: 'wdth' 75;
   font-size: var(--font-size--medium);
   font-weight: 500;
-  line-height: normal;
-  margin-bottom: 5px;
+  line-height: 1em;
+  margin-bottom: 20px;
 }
 ul.bio > li > ul {
   padding: 0px;
@@ -291,8 +291,9 @@ ul.bio > li > ul {
 }
 ul.bio > li > ul > li {
   padding: 0px;
-  margin: 0px;
+  margin: 5px 0px;
   display: block;
+  line-height: 1.5em;
 }
 ul.bio li.buttons {
   display: inline-block;
@@ -302,7 +303,7 @@ ul.bio li.buttons {
 ul.bio li.buttons a {
   text-decoration: none;
   padding: 6px 6px 6px 6px;
-  border: 3px solid var(--white);
+  border: 2px solid var(--white);
   color: var(--white);
   border-radius: 100%;
   background-size: 12px;
@@ -314,7 +315,7 @@ ul.bio li.buttons a {
   width: 6px;
 }
 ul.bio li.buttons a:hover, ul.bio li.buttons a:active, ul.bio li.buttons a:focus {
-  border: 3px solid var(--contrast-alt);
+  border: 2px solid var(--contrast-alt);
 }
 ul.bio li.website a {
   background-image: url(../images/link.png);
