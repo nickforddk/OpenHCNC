@@ -8,28 +8,34 @@ The HCNC project is a collaborative endeavour, drawing on researchers at univers
 
 <div class="grid">
   <div>
-    ## Sources
+    <h2>Sources</h2>
     {% assign sourceslist = site.sources %}
+    <ul>
     {% for item in sourceslist %}
       {% if item.slug == "index" %}
       {% else %}
-      - <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+      <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
       {% endif %}
     {% endfor %}
+    </ul>
 
-    ## Data mapping
-    - [Variables](variables)
-    - Flowchart (to come)
+    <h2>Data mapping</h2>
+    <ul>
+      <li><a href="{{ site.baseurl }}/variables">Variables</a></li>
+      <li>Flowchart (to come)</li>
+    </ul>
   </div>
 
   <div>
-    ## Articles
+    <h2>Articles</h2>
     {% assign articleslist = site.articles %}
+    <ul>
     {% for item in articleslist %}
       {% if item.slug == "index" %}
       {% else %}
-      - <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>{% if item.subtitle %}: {{ item.subtitle }}{% endif %}
+      <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>{% if item.subtitle %}: {{ item.subtitle }}{% endif %}</li>
       {% endif %}
     {% endfor %}
+    </ul>
   </div>
 </div>
