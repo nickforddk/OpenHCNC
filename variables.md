@@ -3,7 +3,7 @@ title: "Variables"
 permalink: /variables/
 ---
 
-Kl: Grade lists 
+Kl: Grade lists  
 Bg: Biographies  
 Ft: Census/population register
 
