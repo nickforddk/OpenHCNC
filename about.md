@@ -20,9 +20,9 @@ The following people are members of our research team:
     <ul>
       <li>{{ team_member.position }}</li>
       <li>{{ team_member.institution }}</li>
-      {% if team_member.website %}<li class="buttons website"><a href="{{ team_member.website }}"></a></li>{% endif %}
-      {% if team_member.twitter %}<li class="buttons twitter"><a href="https://www.twitter.com/{{ team_member.twitter }}"></a></li>{% endif %}
-      {% if team_member.github %}<li class="buttons github"><a href="https://www.github.com/{{ team_member.github }}"></a></li>{% endif %}
+      {% if team_member.website != blank %}<li class="buttons website"><a href="{{ team_member.website }}"></a></li>{% endif %}
+      {% if team_member.twitter != blank %}<li class="buttons twitter"><a href="https://www.twitter.com/{{ team_member.twitter }}"></a></li>{% endif %}
+      {% if team_member.github != blank %}<li class="buttons github"><a href="https://www.github.com/{{ team_member.github }}"></a></li>{% endif %}
     </ul>
   </li>
 {% endfor %}
