@@ -14,17 +14,3 @@ Among other things, our analysis considers:
 ## Team
 
 The following people are members of our research team:
-{% assign team_members = site.team | sort: "surname" %}
-<ul class="bio">
-{% for team_member in team_members %}
-  <li><span>{{ team_member.firstname }} <span>{{ team_member.surname }}</span></span>
-    <ul>
-      <li>{{ team_member.position }}</li>
-      <li>{{ team_member.institution }}</li>
-      {% if team_member.website != "" %}<li class="buttons website"><a href="{{ team_member.website }}" alt="Website"></a></li>{% endif %}
-      {% if team_member.twitter != "" %}<li class="buttons twitter"><a href="https://www.twitter.com/{{ team_member.twitter }}" alt="Twitter"></a></li>{% endif %}
-      {% if team_member.github != "" %}<li class="buttons github"><a href="https://www.github.com/{{ team_member.github }}" alt="GitHub"></a></li>{% endif %}
-    </ul>
-  </li>
-{% endfor %}
-</ul>
