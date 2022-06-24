@@ -40,9 +40,13 @@
       </header>
 
       <section>
+        {% if page.collection %}
+           <div class="strap"><a href="{{ site.baseurl }}/{{ page.collection }}/">{{ page.collection }}</a></div>
+        {% endif %}
+               
         <h1>{{ page.title | default: site.title }}</h1>
         {% if page.subtitle %}
-           <p><strong>{{ page.subtitle }}</strong></p>
+           <p class="subtitle">{{ page.subtitle }}</p>
         {% endif %}
         {{ content }}
       </section>
