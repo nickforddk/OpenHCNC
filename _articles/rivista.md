@@ -2,7 +2,7 @@
 title: "Leaving their mark"
 subtitle: "Using Danish student grade lists to construct a more detailed measure of historical human capital"
 layout: default
-status: complete
+status: completed
 members: [Sharp, Ranestad, Ford]
 ---
 
