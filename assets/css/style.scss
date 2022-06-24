@@ -255,6 +255,37 @@ tbody td {
 thead, tbody, tfoot {
   white-space: normal;
 }
+
+ul.bio {
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+ul.bio li {
+    flex: auto;
+    list-style: none;
+    margin: 0px;
+    padding: 20px;
+    border-top: 3px solid var(--contrast-alt);
+    color: var(--white);
+    background: var(--dark-alt);
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+ul.bio li span {
+    display: block;
+    font-variation-settings: 'wdth' 75;
+    font-size: var(--font-size--medium);
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 5px;
+}
   
 @media print, screen and (max-width: 960px) {
   header, footer {
