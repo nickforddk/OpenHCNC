@@ -56,7 +56,11 @@
         
         {% if page.members %}
           {% assign team_members = site.team | sort: "surname" %}
-          {% assign item_members = page.members | sort: "surname" %}
+          {% if page.members != "" %}
+            {% assign item_members = page.members | sort: "surname" %}
+          {% else %}
+            {% assign item_members = team_members.surname | sort: "surname" %}
+          {% endif %}
           <ul class="bio">
           {% for team_member in team_members %}
             {% for item_member in item_members %}
