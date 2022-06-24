@@ -11,18 +11,21 @@ We provide a brief overview of the educational history of Denmark and document a
 This article is available at the [Italian Review of Economic History](https://www.rivisteweb.it/doi/10.1410/102500).
 
 {% assign team_members = site.team | sort: "surname" %}
+{% assign item_members = page.members | sort: "surname" %}
 <ul class="bio">
 {% for team_member in team_members %}
-  {% if team_member.surname == page.members %}
-  <li><span>{{ team_member.firstname }} <span>{{ team_member.surname }}</span></span>
-    <ul>
-      <li>{{ team_member.position }}</li>
-      <li>{{ team_member.institution }}</li>
-      {% if team_member.website != "" %}<li class="buttons website"><a href="{{ team_member.website }}"></a></li>{% endif %}
-      {% if team_member.twitter != "" %}<li class="buttons twitter"><a href="https://www.twitter.com/{{ team_member.twitter }}"></a></li>{% endif %}
-      {% if team_member.github != "" %}<li class="buttons github"><a href="https://www.github.com/{{ team_member.github }}"></a></li>{% endif %}
-    </ul>
-  </li>
-  {% endif %}
+  {% for item_member in item_members %}
+    {% if team_member.surname == item_member %}
+    <li><span>{{ team_member.firstname }} <span>{{ team_member.surname }}</span></span>
+      <ul>
+        <li>{{ team_member.position }}</li>
+        <li>{{ team_member.institution }}</li>
+        {% if team_member.website != "" %}<li class="buttons website"><a href="{{ team_member.website }}"></a></li>{% endif %}
+        {% if team_member.twitter != "" %}<li class="buttons twitter"><a href="https://www.twitter.com/{{ team_member.twitter }}"></a></li>{% endif %}
+        {% if team_member.github != "" %}<li class="buttons github"><a href="https://www.github.com/{{ team_member.github }}"></a></li>{% endif %}
+      </ul>
+    </li>
+    {% endif %}
+  {% endfor %}
 {% endfor %}
 </ul>
