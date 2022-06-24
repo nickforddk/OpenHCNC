@@ -2,17 +2,21 @@
 title: "Overview"
 ---
 
+[About](about)
+
 ## Sources
 - Grade lists
 - Biographies
 - Census / population register
 
 ## Variables
-[Page](variables)
+[Variables](variables)
 - Flowchart
 
 ## Papers
-{% assign articleslist = site.articles | where:"layout", "article" %}
+{% assign articleslist = site.articles %}
 {% for item in articleslist %}
-1. <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>: {{ item.subtitle }}
+  {% if item.slug != "index" %}
+    1. <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>: {{ item.subtitle }}
+  {% endif %}
 {% endfor %}
