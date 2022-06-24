@@ -56,7 +56,7 @@
         
         {% if page.members %}
           {% assign team_members = site.team | sort: "surname" %}
-          {% assign item_members = page.members | sort: "surname" %}
+          {% assign item_members = page.members %}
           <ul class="bio">
           {% for team_member in team_members %}
             {% if page.members != "" %}
