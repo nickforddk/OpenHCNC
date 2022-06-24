@@ -65,7 +65,7 @@ h1::after {
   background: linear-gradient(to right, var(--light) 0%, var(--light-alt) 100%);
   margin-top: 10px;
 }
-h1 + p strong:only-child {
+h1 + p strong:only-child, h1 + p.subtitle {
   color: var(--dark);
   font-size: var(--font-size--large);
   font-variation-settings: 'wdth' 75;
