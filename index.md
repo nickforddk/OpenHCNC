@@ -17,7 +17,7 @@ title: "Overview"
 {% assign articleslist = site.articles %}
 {% for item in articleslist %}
   {% if item.slug != "index" %}
-    1. <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>: {{ item.subtitle }}
+    
   {% else %}
   {% endif %}
 {% endfor %}
