@@ -12,5 +12,5 @@ layout: default
 | DK | 1801 | Y | |
 
 ## Other sources
-- Norway: [historical population register](https://histreg.no/)
+- Norway: [Historical population register](https://histreg.no/)
 - Denmark: [Link Lives](https://link-lives.dk/)
