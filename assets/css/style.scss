@@ -270,9 +270,9 @@ ul.bio > li {
   list-style: none;
   margin: 0px;
   padding: 20px;
-  border-top: 3px solid var(--contrast-alt);
+  border-top: 3px solid var(--contrast);
   color: var(--white);
-  background: var(--dark-alt);
+  background: linear-gradient(to bottom right, var(--dark-alt), var(--tertiary));
   border-radius: 3px;
   box-sizing: border-box;
 }
