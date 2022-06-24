@@ -56,15 +56,13 @@
         
         {% if page.members %}
           {% assign team_members = site.team | sort: "surname" %}
-          {% if page.members != "" %}
-            {% assign item_members = page.members | sort: "surname" %}
-          {% else %}
-            {% assign item_members = team_members.surname | sort: "surname" %}
-          {% endif %}
+          {% assign item_members = page.members | sort: "surname" %}
           <ul class="bio">
           {% for team_member in team_members %}
+            {% unless page.members == empty %}
             {% for item_member in item_members %}
               {% if team_member.surname == item_member %}
+            {% endunless %}
               <li><span>{{ team_member.firstname }} <span>{{ team_member.surname }}</span></span>
                 <ul>
                   <li>{{ team_member.position }}</li>
@@ -74,8 +72,10 @@
                   {% if team_member.github != "" %}<li class="buttons github"><a href="https://www.github.com/{{ team_member.github }}" title="GitHub"></a></li>{% endif %}
                 </ul>
               </li>
+            {% unless page.members == empty %}
               {% endif %}
             {% endfor %}
+            {% endunless %}
           {% endfor %}
           </ul>
         {% endif %}
