@@ -9,7 +9,7 @@ layout: default
 
 ## Progress tracker
 | Country | Type | Years | HS | Uni | Transcribed | Linked |
-|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|
 | NO | Matrikkel | .. | Y | Y | Manual | |
 | NO | Exam | 1864-1897 | Y | | | |
 | NO | Exam | 1900-1943 | Y | | | |
