@@ -65,9 +65,9 @@
                 <ul>
                   <li>{{ team_member.position }}</li>
                   <li>{{ team_member.institution }}</li>
-                  {% if team_member.website != "" %}<li class="buttons website"><a href="{{ team_member.website }}" alt="Website"></a></li>{% endif %}
-                  {% if team_member.twitter != "" %}<li class="buttons twitter"><a href="https://www.twitter.com/{{ team_member.twitter }}" alt="Twitter"></a></li>{% endif %}
-                  {% if team_member.github != "" %}<li class="buttons github"><a href="https://www.github.com/{{ team_member.github }}" alt="GitHub"></a></li>{% endif %}
+                  {% if team_member.website != "" %}<li class="buttons website"><a href="{{ team_member.website }}" title="Website"></a></li>{% endif %}
+                  {% if team_member.twitter != "" %}<li class="buttons twitter"><a href="https://www.twitter.com/{{ team_member.twitter }}" title="Twitter"></a></li>{% endif %}
+                  {% if team_member.github != "" %}<li class="buttons github"><a href="https://www.github.com/{{ team_member.github }}" title="GitHub"></a></li>{% endif %}
                 </ul>
               </li>
               {% endif %}
