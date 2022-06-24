@@ -286,7 +286,8 @@ ul.bio > li > span {
 }
 ul.bio > li > ul {
   padding: 0px;
-  margin: 0px;  
+  margin: 0px;
+  font-size: var(--font-size--small);
 }
 ul.bio > li > ul > li {
   padding: 0px;
@@ -295,7 +296,7 @@ ul.bio > li > ul > li {
 }
 ul.bio li.buttons {
   display: inline-block;
-  margin-right: 3px;
+  margin: 10px 3px 0px 0px;
   line-height: 1em;
 }
 ul.bio li.buttons a {
