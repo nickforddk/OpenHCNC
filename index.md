@@ -5,9 +5,14 @@ title: "Overview"
 [About](about)
 
 ## Sources
-- Grade lists
-- Biographies
-- Census / population register
+{% assign sourceslist = site.sources %}
+{% for item in sourceslist %}
+  {% if item.slug == "index" %}
+  {% else %}
+  - <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+  {% endif %}
+{% endfor %}
+
 
 ## Variables
 [Variables](variables)
@@ -18,6 +23,6 @@ title: "Overview"
 {% for item in articleslist %}
   {% if item.slug == "index" %}
   {% else %}
-  1. <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>{% if item.subtitle %}: {{ item.subtitle }}{% endif %}
+  - <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>{% if item.subtitle %}: {{ item.subtitle }}{% endif %}
   {% endif %}
 {% endfor %}
