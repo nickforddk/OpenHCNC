@@ -13,6 +13,7 @@ Among other things, our analysis considers:
 ## Team
 
 The following people are members of our research team:
-{% for team_member in site.team | sort: "surname" %}
+{% assign team_members = site.team | sort: "surname" %}
+{% for team_member in team_members %}
 - **{{ team_member.firstname }} {{ team_member.surname }}**, {{ team_member.position }}, {{ team_member.institution }}
 {% endfor %}
