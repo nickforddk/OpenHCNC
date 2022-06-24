@@ -42,7 +42,10 @@
 
       <section>
         {% if page.collection and page.slug != "index" %}
-           <div class="strap"><a href="{{ site.baseurl }}/{{ page.collection }}/">{{ page.collection }}</a></div>
+          <div class="strap">
+            <a href="{{ site.baseurl }}/{{ page.collection }}/">{{ page.collection }}</a>
+            {% if page.status %}<span>{{ page.collection }}</span>{% endif %}
+          </div>
         {% endif %}
                
         <h1>{{ page.title | default: site.title }}</h1>
