@@ -14,6 +14,10 @@ Among other things, our analysis considers:
 
 The following people are members of our research team:
 {% assign team_members = site.team | sort: "surname" %}
+<ul class="bio">
 {% for team_member in team_members %}
-- **{{ team_member.firstname }} {{ team_member.surname }}**, {{ team_member.position }}, {{ team_member.institution }}
+  <li><span>{{ team_member.firstname }} <strong>{{ team_member.surname }}</strong></span>
+    {{ team_member.position }}  
+    {{ team_member.institution }}</li>
 {% endfor %}
+</ul>
