@@ -67,7 +67,7 @@ h1::after {
 }
 h1 + p strong:only-child {
   color: var(--dark);
-  font-size: 1.5em;
+  font-size: var(--font-size--large);
   font-variation-settings: 'wdth' 75;
   font-weight: 500;
 }
