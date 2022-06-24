@@ -2,7 +2,7 @@
 title: "About HCNC"
 ---
 
-**Human Capital in the Nordic Countries** is an international collaboration between computer scientists, economists, historians and other social scientists. The project is developing and applying novel machine learning techniques to harvest data from an extensive range of source materials dating back to the 1600's relating to educational attainment across northern Europe. We have commenced work on records from Denmark and Norway, with Sweden and Finland to come later.
+*Human Capital in the Nordic Countries* is an international collaboration between computer scientists, economists, historians and other social scientists. The project is developing and applying novel machine learning techniques to harvest data from an extensive range of source materials dating back to the 1600's relating to educational attainment across northern Europe. We have commenced work on records from Denmark and Norway, with Sweden and Finland to come later.
 
 The HCNC programme is structured as a natural sequence of work packages. The first step lays the foundations for analysis: the construction of an individual-level database of human capital, drawing on official records (from high schools, technical institutes and universities) and comprehensive biographies of graduates. The new database will support a richer measure of human capital, which takes account of education quality and the heterogeneity of skills acquired by individuals. A key task in association with the creation of the database is critical examination of the source materials — rigorously testing their credibility and accuracy.
 
