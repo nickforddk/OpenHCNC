@@ -16,8 +16,14 @@ The following people are members of our research team:
 {% assign team_members = site.team | sort: "surname" %}
 <ul class="bio">
 {% for team_member in team_members %}
-  <li><span>{{ team_member.firstname }} <strong>{{ team_member.surname }}</strong></span>
-    {{ team_member.position }}  
-    {{ team_member.institution }}</li>
+  <li><span>{{ team_member.firstname }} <span>{{ team_member.surname }}</span></span>
+    <ul>
+      <li>{{ team_member.position }}</li>
+      <li>{{ team_member.institution }}</li>
+      <li class="website"><a href="{{ team_member.website }}"></a></li>
+      <li class="twitter"><a href="https://www.twitter.com/{{ team_member.twitter }}"></a></li>
+      <li class="github"><a href="https://www.github.com/{{ team_member.github }}"></a></li>
+    </ul>
+  </li>
 {% endfor %}
 </ul>
