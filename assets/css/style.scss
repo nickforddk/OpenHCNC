@@ -304,27 +304,22 @@ ul.bio li.buttons a {
   border: 3px solid var(--light);
   color: var(--white);
   border-radius: 3px;
+  background-size: 15px;
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
 }
 ul.bio li.buttons a:hover, ul.bio li.buttons a:active, ul.bio li.buttons a:focus {
   border: 3px solid var(--contrast-alt);
 }
 ul.bio li.website a {
-  background: url(../images/link.png) no-repeat;
-  background-size: 15px;
-  background-position-x: center;
-  background-position-y: center;
+  background-image: url(../images/link.png);
 }
 ul.bio li.twitter a {
-  background: url(../images/extlink.png) no-repeat;
-  background-size: 15px;
-  background-position-x: center;
-  background-position-y: center;
+  background-image: url(../images/extlink.png);
 }
 ul.bio li.github a {
-  background: url(../images/github.png) no-repeat;
-  background-size: 15px;
-  background-position-x: center;
-  background-position-y: center;
+  background-image: url(../images/github.png);
 }
 
   
