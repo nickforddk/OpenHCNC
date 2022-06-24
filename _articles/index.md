@@ -3,7 +3,10 @@ title: "Articles"
 layout: default
 ---
 
-{% assign articleslist = site.articles | where:"layout", "article" %}
+{% assign articleslist = site.articles %}
 {% for item in articleslist %}
-- <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>: {{ item.subtitle }}
+  {% if item.slug == "index" %}
+  {% else %}
+  1. <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>{% if item.subtitle %}: {{ item.subtitle }}{% endif %}
+  {% endif %}
 {% endfor %}
