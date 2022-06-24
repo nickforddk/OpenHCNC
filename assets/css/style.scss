@@ -295,7 +295,7 @@ ul.bio > li > ul > li {
 }
 ul.bio li.buttons {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 3px;
   line-height: 1em;
 }
 ul.bio li.buttons a {
@@ -303,7 +303,7 @@ ul.bio li.buttons a {
   padding: 6px 6px 6px 6px;
   border: 3px solid var(--white);
   color: var(--white);
-  border-radius: 3px;
+  border-radius: 100%;
   background-size: 12px;
   background-position-x: center;
   background-position-y: center;
@@ -319,7 +319,7 @@ ul.bio li.website a {
   background-image: url(../images/link.png);
 }
 ul.bio li.twitter a {
-  background-image: url(../images/extlink.png);
+  background-image: url(../images/twitter.png);
 }
 ul.bio li.github a {
   background-image: url(../images/github.png);
