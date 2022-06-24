@@ -1,9 +1,6 @@
 ---
-title: "HCNC"
+title: "Overview"
 ---
-
-
-# Overview
 
 ## Sources
 - Grade lists
