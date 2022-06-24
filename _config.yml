@@ -11,9 +11,11 @@ permalink: /:slug
 collections:
   articles:
     output: true
+    layout: default
     permalink: /articles/:name
   sources:
     output: true
+    layout: default
     permalink: /sources/:name
 
 team:
