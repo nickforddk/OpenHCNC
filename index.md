@@ -21,5 +21,3 @@ title: "Overview"
   1. <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>{% if item.subtitle %}: {{ item.subtitle }}{% endif %}
   {% endif %}
 {% endfor %}
-
-{% include_relative articles %}
