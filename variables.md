@@ -3,8 +3,8 @@ title: "Variables"
 permalink: /variables/
 ---
 
-Kl: Grade lists
-Bg: Biographies
+Kl: Grade lists 
+Bg: Biographies  
 Ft: Census/population register
 
 Instances: 1 or Multiple
