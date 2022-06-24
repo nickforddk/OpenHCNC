@@ -22,4 +22,4 @@ title: "Overview"
   {% endif %}
 {% endfor %}
 
-{% include_relative articles/index.md %}
+{% include_relative articles %}
