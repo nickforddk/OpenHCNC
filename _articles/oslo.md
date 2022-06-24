@@ -2,6 +2,7 @@
 title: "Lessons from Oslo"
 subtitle: "Examining social mobility after the establishment of Norway’s first university"
 layout: default
+members: [Ford, Ranestad, Sharp]
 ---
 
 The first Scandinavian universities were established in the fifteenth century. But it was not until 1811 that the first university was established in Norway: what is today the University of Oslo. Prior to this, aspiring Norwegian academics would travel to Copenhagen to study. Many high-status professions in Norwegian society — including in state administration and the church — required university-level qualifications.
