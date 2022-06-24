@@ -257,35 +257,61 @@ thead, tbody, tfoot {
 }
 
 ul.bio {
-    padding: 0px;
-    margin: 0px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 30px;
-    justify-content: space-between;
-    align-content: flex-start;
+  padding: 0px;
+  margin: 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 30px;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+ul.bio > li {
+  flex: auto;
+  list-style: none;
+  margin: 0px;
+  padding: 20px;
+  border-top: 3px solid var(--contrast-alt);
+  color: var(--white);
+  background: var(--dark-alt);
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+ul.bio > li > span {
+  display: block;
+  font-variation-settings: 'wdth' 75;
+  font-size: var(--font-size--medium);
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+ul.bio > li > ul {
+  padding: 0px;
+  margin: 0px;  
+}
+ul.bio > li > ul > li {
+  padding: 0px;
+  margin: 0px;
+  display: block;
+}
+ul.bio li.buttons {
+  display: inline-block;
+  margin-right: 10px;
+  line-height: 1em;
+}
+ul.bio li.buttons a {
+  text-decoration: none;
+  padding: 6px 6px 6px 7px;
+  border: 3px solid var(--light);
+  color: var(--light);
+  border-radius: 3px;
+}
+ul.bio li.buttons a.website {
+}
+ul.bio li.buttons a.twitter {
+}
+ul.bio li.buttons a.github {
 }
 
-ul.bio li {
-    flex: auto;
-    list-style: none;
-    margin: 0px;
-    padding: 20px;
-    border-top: 3px solid var(--contrast-alt);
-    color: var(--white);
-    background: var(--dark-alt);
-    border-radius: 3px;
-    box-sizing: border-box;
-}
-
-ul.bio li span {
-    display: block;
-    font-variation-settings: 'wdth' 75;
-    font-size: var(--font-size--medium);
-    font-weight: 500;
-    line-height: normal;
-    margin-bottom: 5px;
-}
   
 @media print, screen and (max-width: 960px) {
   header, footer {
