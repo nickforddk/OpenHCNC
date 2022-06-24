@@ -59,7 +59,7 @@
           {% assign item_members = page.members | sort: "surname" %}
           <ul class="bio">
           {% for team_member in team_members %}
-            {% unless page.members == empty %}
+            {% unless page.members == "" %}
             {% for item_member in item_members %}
               {% if team_member.surname == item_member %}
             {% endunless %}
@@ -72,7 +72,7 @@
                   {% if team_member.github != "" %}<li class="buttons github"><a href="https://www.github.com/{{ team_member.github }}" title="GitHub"></a></li>{% endif %}
                 </ul>
               </li>
-            {% unless page.members == empty %}
+            {% unless page.members == "" %}
               {% endif %}
             {% endfor %}
             {% endunless %}
