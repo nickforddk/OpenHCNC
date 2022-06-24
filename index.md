@@ -13,7 +13,7 @@ title: "Overview"
 [Variables](variables)
 - Flowchart
 
-## Papers
+## Articles
 {% assign articleslist = site.articles %}
 {% for item in articleslist %}
   {% if item.slug == "index" %}
