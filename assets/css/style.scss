@@ -78,6 +78,17 @@ h2 {
   font-size: var(--font-size--large);
 }
 
+h1 a, h2 a, h3 a {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+h2 a::after, h2 a::after, h2 a::after {
+    content: "\2192";
+    display: inline-block;
+    float: right;
+}
+
 h3 {
   color: var(--secondary);
   font-size: var(--font-size--medium);
