@@ -126,11 +126,10 @@ h1.cover {
   background-size: cover;
   background-position: center center;
   color: var(--white);
+  display: flex;
 }
-h1.cover::before {
-  content: "";
-  display: block;
-  height: calc(40vh - 80px);
+h1.cover span {
+  align-self: flex-end;
 }
 
 h1.header::after, h1.cover::after {
@@ -420,9 +419,6 @@ ul.bio li.github a {
     height: 20vh;
     border-radius: 0px;
     margin-top: -50px;
-  }
-  h1.cover::before {
-    height: calc(20vh - 80px);
   }
 }
 
