@@ -3,7 +3,7 @@ title: "Education and industrialisation"
 subtitle: "Using novel data sources to construct historical estimates of human capital"
 layout: default
 members: [Dahl, Westermann, Sharp, Ranestad, Ford]
-cover:
+cover: 
 ---
 
 The purpose of the paper is to:
