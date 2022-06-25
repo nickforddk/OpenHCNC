@@ -128,6 +128,7 @@ h1.cover {
   border-bottom: 4px solid var(--contrast);
   background-size: cover;
   background-position: center center;
+  background-color: var(--dark);
   color: var(--white);
   box-shadow: 0px -5px 3px -3px #00000044 inset;
   display: flex;
@@ -150,6 +151,7 @@ header {
   color: var(--white);
   box-shadow: -4px 5px 3px -3px #00000033 inset;
   padding: 30px 30px 30px 50px;
+  min-height: 40vh;
 }
 
 /*header li {
@@ -402,6 +404,7 @@ ul.bio li.github a {
   }
   header {
     box-shadow: 0px -4px 3px -3px #00000033 inset;
+    min-height: auto;
   }
   header ul {
     right: 50px;
