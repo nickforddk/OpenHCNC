@@ -306,6 +306,9 @@ tbody td {
   background: none;
   border-bottom: 1px solid var(--light);
 }
+tbody tr:last-child td {
+    border-bottom: var(--border-width) solid var(--tertiary);
+}
 
 thead, tbody, tfoot {
   white-space: normal;
