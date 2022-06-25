@@ -1,6 +1,6 @@
 ---
 title: "Sources"
-layout: default
+layout: directory
 ---
 
 {% assign sourceslist = site.sources %}
