@@ -28,6 +28,8 @@
   --font-size--large: clamp(1.4rem, 2.5vw, 1.7rem);
   --font-size--x-large: clamp(1.5rem, 3vw, 2.4rem);
   --font-size--huge: clamp(2.2rem, 4vw, 3.2rem);
+  --border-curve: 4px;
+  --border-width: 2px;
 }  
 
 body {
@@ -64,6 +66,7 @@ h1::after {
   height: 3px;
   background: linear-gradient(to right, var(--light) 0%, var(--light-alt) 100%);
   margin-top: 10px;
+  border-radius: var(--border-curve);
 }
 h1 + p strong:only-child, h1 + p.subtitle {
   color: var(--dark);
@@ -130,13 +133,13 @@ header {
   height: auto;
   box-shadow: none;
   background: none;
-  border: 3px solid var(--light-alt);
-  border-radius: 3px;
+  border: var(--border-width) solid var(--light-alt);
+  border-radius: var(--border-curve);
   font-variation-settings: 'wdth' 75;
 }
 header li:active, header li:hover {
   background: none;
-  border: 3px solid var(--contrast-alt);
+  border: var(--border-width) solid var(--contrast-alt);
 }
 header li a {
   text-decoration: none;
@@ -156,13 +159,13 @@ header li:active, header li:hover {
 }
 header li a {
   text-decoration: none;
-  border: 3px solid var(--light-alt);
-  border-radius: 3px;
+  border: var(--border-width) solid var(--light-alt);
+  border-radius: var(--border-curve);
   padding: 6px;
   display: block;
 }
 header li a:active, header li a:hover, header li a:focus {
-  border: 3px solid var(--contrast-alt);
+  border: var(--border-width) solid var(--contrast-alt);
 }
 
 header li a.buttons {
@@ -236,20 +239,20 @@ small {
   text-decoration: none;
   padding: 6px;
   margin-right: 3px;
-  border-radius: 3px;
+  border-radius: var(--border-curve);
   font-variation-settings: 'wdth' 75;
   text-transform: capitalize;
 }
 .strap a {
-  border: 3px solid var(--contrast);
+  border: var(--border-width) solid var(--contrast);
   color: var(--contrast);
 }
 .strap a:hover, .strap a:active, .strap a:focus {
-  border: 3px solid var(--light);
+  border: var(--border-width) solid var(--light);
   color: var(--light);
 }
 .strap span {
-  border: 3px solid var(--secondary);
+  border: var(--border-width) solid var(--secondary);
   color: var(--secondary);
 }
 
@@ -272,6 +275,7 @@ tbody td {
 
 thead, tbody, tfoot {
   white-space: normal;
+  border-radius: var(--border-curve);
 }
 
 ul.bio {
@@ -291,7 +295,7 @@ ul.bio > li {
   border-top: 3px solid var(--contrast);
   color: var(--white);
   background: linear-gradient(to bottom right, var(--dark-alt), var(--tertiary));
-  border-radius: 3px;
+  border-radius: var(--border-curve);
   box-sizing: border-box;
 }
 ul.bio > li > span {
@@ -321,7 +325,7 @@ ul.bio li.buttons {
 ul.bio li.buttons a {
   text-decoration: none;
   padding: 6px 6px 6px 6px;
-  border: 2px solid var(--white);
+  border: var(--border-width) solid var(--white);
   color: var(--white);
   border-radius: 100%;
   background-size: 12px;
@@ -333,7 +337,7 @@ ul.bio li.buttons a {
   width: 6px;
 }
 ul.bio li.buttons a:hover, ul.bio li.buttons a:active, ul.bio li.buttons a:focus {
-  border: 2px solid var(--contrast-alt);
+  border: var(--border-width) solid var(--contrast-alt);
 }
 ul.bio li.website a {
   background-image: url(../images/link.png);
