@@ -104,30 +104,45 @@ h1.header {
   font-weight: 500;
   font-size: var(--font-size--large);
 }
-
 h1.header::before {
   content: "HCNC";
   font-size: var(--font-size--medium);
   font-weight: 300;
   font-variation-settings: 'wdth' 125;
   color: var(--contrast);
-  margin: 0px;
+  margin: 10px 0px 0px 0px;
   display: block;
   line-height: 1.5em;
 }
-h1.header::after {
-  height: 0px;
-  background: none;
+
+h1.cover {
+  height: 40vh;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: var(--border-curve);
+  margin: 0px -20px 30px -20px;
+  border-bottom: 4px solid var(--contrast);
+}
+h1.cover::before {
+  content: "";
+  display: block;
+  height: 90%;
+}
+
+h1.header::after, h1.cover::after {
+  display: none;
 }
 
 header, footer {
   border: 0px;
-  width: 250px;
+  width: 300px;
+  box-sizing: border-box;
 }
 header {
   background: radial-gradient(ellipse at top left, var(--dark) 0%, var(--dark-alt) 60%, var(--contrast-alt) 90%, var(--light-alt) 100%);
   color: var(--white);
   box-shadow: -4px 5px 3px -3px #00000033 inset;
+  padding: 30px 30px 30px 50px;
 }
 
 /*header li {
@@ -392,7 +407,7 @@ ul.bio li.github a {
   header, footer {
     width: auto;
     margin: 0px;
-    padding: 40px 20px 20px 20px;
+    padding: 20px;
   }
   section {
     padding: 50px 20px;
