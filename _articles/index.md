@@ -1,4 +1,4 @@
 ---
 title: "Articles"
-layout: default
+layout: directory
 ---
