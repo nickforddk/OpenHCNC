@@ -245,6 +245,27 @@ section p em {
   color: var(--dark);
 }
 
+blockquote {
+  margin: 0px 0px 22px 0px;
+  padding: 10px 20px;
+  font-style: normal;
+  font-size: var(--font-size--small);
+  background: var(--alert);
+  border-radius: var(--border-curve);
+  color: var(--white);
+}
+blockquote blockquote {
+  border: var(--border-width) solid var(--light);
+}
+blockquote *:last-child {
+  margin-bottom: 0px;
+}
+h1 + blockquote, p.subtitle + blockquote {
+  background: var(--alert);
+  color: var(--black);
+  font-size: var(--font-size--medium);
+}
+
 small {
   font-size: var(--font-size--tiny);
 }
