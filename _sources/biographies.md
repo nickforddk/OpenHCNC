@@ -16,11 +16,11 @@ Note: Types can overlap, as each cohort can have multiple yearbooks (eg. books f
 
 | Country | Type | Years | Transcribed | Linked | 
 | --- | --- | --- | --- | --- | 
-| NO | Biographies | 1831--1943 | | |
+| NO | Biographies | 1831-1943 | | |
 | --- | --- | --- | --- | --- | 
-| DK | Table | 1812, 1820--1849 | | |
-| DK | Short text | 1828--1867, 1919 | | |
-| DK | Biographies | 1850, 1855, 1857, 1861--1923 | | |
+| DK | Table | 1812, 1820-1849 | | |
+| DK | Short text | 1828-1867, 1919 | | |
+| DK | Biographies | 1850, 1855, 1857, 1861-1923 | | |
 
 ## Additional source material
 - Denmark/Norway
