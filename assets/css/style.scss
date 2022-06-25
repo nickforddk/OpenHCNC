@@ -74,7 +74,10 @@ h1 + p strong:only-child, h1 + p.subtitle {
   font-variation-settings: 'wdth' 75;
   font-weight: 500;
 }
-
+h1.cover + p strong:only-child, h1.cover + p.subtitle {
+  margin: -18px 0px 30px 0px;
+}
+    
 h2 {
   font-variation-settings: 'wdth' 125;
   color: var(--secondary);
@@ -118,7 +121,7 @@ h1.header::before {
 h1.cover {
   height: 40vh;
   min-height: 3em;
-  padding: 20px;
+  padding: 10px 20px;
   box-sizing: border-box;
   border-radius: var(--border-curve);
   margin: 0px -20px 30px -20px;
