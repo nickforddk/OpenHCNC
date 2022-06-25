@@ -199,7 +199,7 @@ footer {
 footer + div {
   display: block;
   height: 50px;
-  background: linear-gradient(to bottom, #00000033 0%, #FFFFFF66 100%), linear-gradient(to right, var(--contrast) 0%, var(--contrast-alt) 100%);
+  background: linear-gradient(to bottom, #00000033 0%, #00000000 10%, #FFFFFF44 100%),linear-gradient(to right, var(--contrast) 0%, var(--contrast-alt) 100%);
   margin: 30px 0px 0px 0px;  
 }
 
@@ -294,7 +294,7 @@ ul.bio > li {
   padding: 20px;
   border-top: 3px solid var(--contrast);
   color: var(--white);
-  background: linear-gradient(to bottom right, var(--dark-alt), var(--tertiary));
+  background: linear-gradient(to bottom, #00000033 0%, #00000000 2%), linear-gradient(to bottom right, var(--dark-alt), var(--tertiary));
   border-radius: var(--border-curve);
   box-sizing: border-box;
 }
