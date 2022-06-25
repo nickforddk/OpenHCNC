@@ -23,7 +23,7 @@ layout: default
       {% for item in sourceslist %}
         {% if item.slug == "index" %}
         {% else %}
-        <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+        <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a> {{ item.date }}</li>
         {% endif %}
       {% endfor %}
       </ul>
