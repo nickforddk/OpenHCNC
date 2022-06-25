@@ -264,6 +264,8 @@ h1 + blockquote, p.subtitle + blockquote {
   background: var(--alert);
   color: var(--black);
   font-size: var(--font-size--medium);
+  font-variation-settings: 'wdth' 75;
+  font-weight: 500;
 }
 
 small {
