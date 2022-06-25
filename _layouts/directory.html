@@ -18,7 +18,7 @@ layout: default
   <div class="grid">
     <div>
       <h2><a href="{{ site.baseurl }}/sources">Sources</a></h2>
-      {% assign sourceslist = site.sources %}
+      {% assign sourceslist = site.sources | sort: "slug" %}
       <ul>
       {% for item in sourceslist %}
         {% if item.slug == "index" %}
