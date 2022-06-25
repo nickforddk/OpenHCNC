@@ -1,5 +1,6 @@
 ---
 title: "Overview"
+layout: directory
 cover: front.jpg
 ---
 
