@@ -30,6 +30,7 @@
   --font-size--huge: clamp(2.2rem, 4vw, 3.2rem);
   --border-curve: 4px;
   --border-width: 2px;
+  --border-cap: 3px;
 }  
 
 body {
@@ -63,8 +64,8 @@ h1 {
 h1::after {
   content: "";
   display: block;
-  height: var(--border-width);
-  background: linear-gradient(to right, var(--light) 0%, var(--light-alt) 100%);
+  height: var(--border-cap);
+  background: linear-gradient(to right, var(--light) 0%, var(--primary) 100%);
   margin-top: 10px;
   border-radius: var(--border-curve);
 }
@@ -82,22 +83,24 @@ h2 {
   font-variation-settings: 'wdth' 125;
   color: var(--secondary);
   font-size: var(--font-size--large);
+  border-color: var(--secondary);
 }
 
 h1 a, h2 a, h3 a {
-    text-decoration: none;
-    display: block;
-    color: inherit;
+  text-decoration: none;
+  display: block;
+  color: inherit;
 }
 h2 a::after, h2 a::after, h2 a::after {
-    content: "\2192";
-    display: inline-block;
-    float: right;
+  content: "\2192";
+  display: inline-block;
+  float: right;
 }
 
 h3 {
-  color: var(--secondary);
+  color: var(--tertiary);
   font-size: var(--font-size--medium);
+  border: none;
 }
 
 h1.header, h4, h5, h6, th {
@@ -125,7 +128,7 @@ h1.cover {
   box-sizing: border-box;
   border-radius: var(--border-curve);
   margin: 0px -20px 30px -20px;
-  border-bottom: 4px solid var(--contrast);
+  border-bottom: var(--border-cap) solid var(--contrast);
   background-size: cover;
   background-position: center center;
   background-color: var(--dark);
@@ -330,7 +333,7 @@ tbody td {
   border-bottom: 1px solid var(--light);
 }
 tbody tr:last-child td {
-    border-bottom: var(--border-width) solid var(--tertiary);
+  border-bottom: var(--border-width) solid var(--tertiary);
 }
 
 thead, tbody, tfoot {
@@ -352,7 +355,7 @@ ul.bio > li {
   list-style: none;
   margin: 0px;
   padding: 20px;
-  border-top: 3px solid var(--contrast);
+  border-top: var(--border-cap) solid var(--contrast);
   color: var(--white);
   background: linear-gradient(to bottom, #00000033 0%, #00000000 2%), linear-gradient(to bottom right, var(--dark-alt), var(--tertiary));
   border-radius: var(--border-curve);
