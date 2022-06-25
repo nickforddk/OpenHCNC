@@ -3,6 +3,8 @@ title: Censuses and related population sources
 layout: default
 ---
 
+> This section still being edited.
+
 ## Census records
 
 | Country | Year | Digitised? | Notes |
@@ -10,6 +12,7 @@ layout: default
 | NO | 1801 | Y | |
 | NO | 1865 | Y | |
 | NO | ... |  | |
+| --- | --- | --- | --- |
 | DK | 1801 | Y | |
 | DK | 1834 | Y | |
 | DK | 1850 | Y | |
