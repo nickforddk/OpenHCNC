@@ -5,7 +5,7 @@ layout: default
 {{ content }}
 
 {% if page.collection %}
-  {% assign list = site[page.collection] %}
+  {% assign list = site[page.collection] | sort: "date" %}
   <ol>
   {% for item in list %}
     {% if item.slug == "index" %}
@@ -18,7 +18,7 @@ layout: default
   <div class="grid">
     <div>
       <h2><a href="{{ site.baseurl }}/sources">Sources</a></h2>
-      {% assign sourceslist = site.sources %}
+      {% assign sourceslist = site.sources | sort: "date" %}
       <ul>
       {% for item in sourceslist %}
         {% if item.slug == "index" %}
