@@ -275,6 +275,11 @@ small {
   border: var(--border-width) solid var(--secondary);
   color: var(--secondary);
 }
+.strap.cover {
+  margin-bottom: calc(-30px - 1em - 2 * var(--border-width));
+  margin-top: 1em;
+}
+
 
 table {
   border: 0px;
@@ -420,6 +425,9 @@ ul.bio li.github a {
     height: 20vh;
     border-radius: 0px;
     margin-top: -50px;
+  }
+  .strap.cover {
+    margin-top: calc(-50px + 1em);
   }
 }
 
