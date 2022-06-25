@@ -282,6 +282,10 @@ small {
   margin-bottom: calc(-30px - 1em - 2 * var(--border-width));
   margin-top: 1em;
 }
+.strap.cover span {
+  border: var(--border-width) solid var(--light-alt);
+  color: var(--light-alt);
+}
 
 
 table {
