@@ -17,9 +17,6 @@ collections:
     output: true
     layout: default
     permalink: /sources/:name
-    order:
-      - gradelists.md
-      - biographies.md
 
 team:
   - surname: "Ford"
