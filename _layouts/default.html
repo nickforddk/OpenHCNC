@@ -30,7 +30,7 @@
         </ul>
 
         {% if site.github.is_project_page %}
-          <p class="header">This project is maintained by <a class="header name" href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+          <p class="header">This project page is maintained by <a class="header name" href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
 
         {% if site.github.is_user_page %}
@@ -53,7 +53,7 @@
         {% endif %}
         
         {% if page.cover %}
-          <h1 class="cover" style="background-image: url({{ site.baseurl }}/assets/images/{{ page.cover | default: folk.jpg }})"><span>{{ page.title | default: site.title }}</span></h1>
+          <h1 class="cover" style="background-image: radial-gradient(ellipse at top left, transparent 50%, var(--secondary)), url({{ site.baseurl }}/assets/images/{{ page.cover | default: folk.jpg }})"><span>{{ page.title | default: site.title }}</span></h1>
         {% else %}
           <h1>{{ page.title | default: site.title }}</h1>
         {% endif %}
