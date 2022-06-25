@@ -3,8 +3,6 @@ title: Censuses and related population sources
 layout: default
 ---
 
-> This section still being edited.
-
 ## Census records
 
 | Country | Year | Digitised? | Notes |
