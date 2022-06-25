@@ -42,13 +42,21 @@
 
       <section>
         {% if page.collection and page.slug != "index" %}
+          {% if page.cover %}
+          <div class="strap cover">
+          {% else %}
           <div class="strap">
+          {% endif %}
             <a href="{{ site.baseurl }}/{{ page.collection }}/">{{ page.collection }}</a>
             {% if page.status %}<span>{{ page.status }}</span>{% endif %}
           </div>
         {% endif %}
-               
-        <h1>{{ page.title | default: site.title }}</h1>
+        
+        {% if page.cover %}
+          <h1 class="cover" style="background-image: url({{ base_url }}/assets/images/{{ page.cover | default: folk.jpg }})"><span>{{ page.title | default: site.title }}</span></h1>
+        {% else %}
+          <h1>{{ page.title | default: site.title }}</h1>
+        {% endif %}
         {% if page.subtitle %}
            <p class="subtitle">{{ page.subtitle }}</p>
         {% endif %}
