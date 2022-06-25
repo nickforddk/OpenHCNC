@@ -117,16 +117,20 @@ h1.header::before {
 
 h1.cover {
   height: 40vh;
+  min-height: 3em;
   padding: 20px;
   box-sizing: border-box;
   border-radius: var(--border-curve);
   margin: 0px -20px 30px -20px;
   border-bottom: 4px solid var(--contrast);
+  background-size: cover;
+  background-position: center center;
+  color: var(--white);
 }
 h1.cover::before {
   content: "";
   display: block;
-  height: 90%;
+  height: calc(40vh - 80px);
 }
 
 h1.header::after, h1.cover::after {
@@ -411,6 +415,14 @@ ul.bio li.github a {
   }
   section {
     padding: 50px 20px;
+  }
+  h1.cover {
+    height: 20vh;
+    border-radius: 0px;
+    margin-top: -50px;
+  }
+  h1.cover::before {
+    height: calc(20vh - 80px);
   }
 }
 
