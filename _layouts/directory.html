@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{% if page.collection %}
+  {% assign list = site[page.collection] %}
+  <ol>
+  {% for item in list %}
+    {% if item.slug == "index" %}
+    {% else %}
+    <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>{% if item.subtitle %}: {{ item.subtitle }}{% endif %}</li>
+    {% endif %}
+  {% endfor %}
+  </ol>
+{% else %}
+  <div class="grid">
+    <div>
+      <h2><a href="{{ site.baseurl }}/sources">Sources</a></h2>
+      {% assign sourceslist = site.sources %}
+      <ul>
+      {% for item in sourceslist %}
+        {% if item.slug == "index" %}
+        {% else %}
+        <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+
+      <h2>Data mapping</h2>
+      <ul>
+        <li><a href="{{ site.baseurl }}/variables">Variables</a></li>
+        <li>Flowchart (to come)</li>
+      </ul>
+    </div>
+
+    <div>
+      <h2><a href="{{ site.baseurl }}/articles">Articles</a></h2>
+      {% assign articleslist = site.articles %}
+      <ul>
+      {% for item in articleslist %}
+        {% if item.slug == "index" %}
+        {% else %}
+        <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>{% if item.subtitle %}: {{ item.subtitle }}{% endif %}</li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+{% endif %}
