@@ -232,8 +232,22 @@ footer {
   color: var(--dark-alt);
   position: initial;
   margin-top: -30px;
+  font-size: var(--font-size--tiny);
 }
-
+footer ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 10px;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+footer ul li {
+  flex: auto;
+  margin: 0px;
+}
 footer + div {
   display: block;
   height: 50px;
