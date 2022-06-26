@@ -89,3 +89,6 @@ Project team members are coded into the configuration file for the website (_\_c
 At this stage, _role_ is not actively used on the website. All other values are used to populate the team member profile boxes that appear on the site -- for example, on the [About HCNC](https://nickforddk.github.io/OpenHCNC/about) page. As noted above, _surname_ is the value used to identify team members where individuals are assigned to pages using the _members_ option in the instruction block. 
 
 You are welcome to edit your own profile information, but otherwise avoid editing the configuration file, as this may "break" the website!
+
+# About the site
+This GitHub Pages site is managed by [Nick Ford](https://github.com/nickforddk), using a heavily edited version of the Jekyll template, _Dinky_. The typeface is the open source variable font [Archivo](https://fonts.google.com/specimen/Archivo).
