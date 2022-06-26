@@ -8,6 +8,7 @@ The website is constructed with GitHub pages using files written in Markdown (.m
 The website's content is located in the main `OpenHCNC` folder (where you are now), and the folders:
 - `\_articles` (containing the pages in the _Articles_ category)
 - `\_sources` (containing the pages in the _Sources_ category)  
+
 The other folders contain the nuts and bolts of the site and its design. Please avoid editing these files!
 
 Each Markdown (.md) file includes basic instructions to generate the page. At a minimum, this includes the page _title_ and _layout_ (usually "default"). Other prompts that can be included in the instruction block are:
