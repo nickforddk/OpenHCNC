@@ -5,11 +5,11 @@ This GitHub repository hosts files for the project website, and is intended for 
 The website is constructed with GitHub pages using files written in Markdown (.md). Markdown is simple, providing a minimal amount of formatting using a text-based editor.
 
 This brief guide to editing the website discusses:
-1. which [folders and files](#files) can be edited
-1. how to [format pages using Markdown](#format)
-1. where details of [team members](#config) are saved.
+1. which [folders and files](#folders-and-files) can be edited
+1. how to [format pages using Markdown](#formatting-in-markdown)
+1. where details of [team members](#listing-team-members) are saved.
 
-## Folders and files {#files}
+## Folders and files
 The website's content is located in the main `OpenHCNC` folder (where you are now), and the folders:
 - `\_articles` (containing the pages in the _Articles_ category)
 - `\_sources` (containing the pages in the _Sources_ category)  
@@ -38,7 +38,7 @@ Here is the first line of text on the page.
 
 The page content immediately follows the instruction block as plain text. The page title (along with any subtitle) is coded into the template -- as such, you do not need to manually enter the title in the page content.
 
-## Formatting in Markdown {#format}
+## Formatting in Markdown
 The benefit of Markdown is its simplicity: just insert your text, and the template takes care of the rest! There is a limited range of formatting available to structure the text and highlight information.
 ```
 ## Heading
@@ -48,8 +48,10 @@ _Italics_
 **Bold**
 
 Here is an unordered list:
-- with this dot point
+- with this dot point marked by a dash
 - followed by another dot point
+  - with an indented sub-point
+  - which you get by hitting the tab key, then typing a dash
 - and a concluding dot point.
 
 Ordered lists are also possible:
@@ -83,7 +85,7 @@ When the page is generated, you then get:
 
 A more complete overview of Markdown coding can be found at the [Markdown Guide](https://www.markdownguide.org/cheat-sheet/).
 
-## Listing team members {#config}
+## Listing team members
 Project team members are coded into the configuration file for the website (`\_config.yml` in the main directory). Each individual is listed using the following format in the section headed  _team:_:
 ```
   - surname: ""
