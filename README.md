@@ -11,8 +11,8 @@ This brief guide to editing the website discusses:
 
 ## Folders and files
 The website's content is located in the main `OpenHCNC` folder (where you are now), and the folders:
-- `\_articles` (containing the pages in the _Articles_ category)
-- `\_sources` (containing the pages in the _Sources_ category)  
+- `_articles` (containing the pages in the _Articles_ category)
+- `_sources` (containing the pages in the _Sources_ category)  
 
 The other folders contain the nuts and bolts of the site and its design. Please only edit files in the folders listed above! 😊
 
@@ -86,7 +86,7 @@ When the page is generated, you then get:
 A more complete overview of Markdown coding can be found at the [Markdown Guide](https://www.markdownguide.org/cheat-sheet/).
 
 ## Listing team members
-Project team members are coded into the configuration file for the website (`\_config.yml` in the main directory). Each individual is listed using the following format in the section headed  _team:_:
+Project team members are coded into the configuration file for the website (`_config.yml` in the main directory). Each individual is listed using the following format in the section headed  _team:_:
 ```
   - surname: ""
     firstname: ""
