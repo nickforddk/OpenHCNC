@@ -5,7 +5,12 @@ This GitHub repository hosts files for the project website, and is intended for 
 The website is constructed with GitHub pages using files written in Markdown (.md). Markdown is simple, providing a minimal amount of formatting using a text-based editor.
 
 ## Files
-The website's content is located in the main OpenHCNC folder, and the folders \_articles and \_sources. Each Markdown file includes basic instructions to generate the page. At a minimum, this includes the page _title_ and _layout_ (usually "default"). Other prompts that can be included in the instruction block are:
+The website's content is located in the main `OpenHCNC` folder (where you are now), and the folders:
+- `\_articles` (containing the pages in the _Articles_ category)
+- `\_sources` (containing the pages in the _Sources_ category)
+The other folders contain the nuts and bolts of the site and its design. Please avoid editing these files!
+
+Each Markdown (.md) file includes basic instructions to generate the page. At a minimum, this includes the page _title_ and _layout_ (usually "default"). Other prompts that can be included in the instruction block are:
 - _subtitle_: An extension of the page title. Particularly relevant for articles.
 - _status_: An optional one-word descriptor for articles. Useful for noting that a paper is ["Completed"](https://nickforddk.github.io/OpenHCNC/articles/rivista).
 - _cover_: Allows a cover image for the page title. Images must be saved in the assets/images directory. Contact Nick if there's a specific image you want to include!
@@ -73,7 +78,7 @@ When the page is generated, you then get:
 A more complete overview of Markdown coding can be found at the [Markdown Guide](https://www.markdownguide.org/cheat-sheet/).
 
 ## Listing team members
-Project team members are coded into the configuration file for the website (_\_config.yml_ in the main directory). Each individual is listed using the following format in the section headed "team:":
+Project team members are coded into the configuration file for the website (`\_config.yml` in the main directory). Each individual is listed using the following format in the section headed  _team:_:
 ```
   - surname: ""
     firstname: ""
