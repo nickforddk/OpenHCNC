@@ -71,3 +71,21 @@ When the page is generated, you then get:
 (Note that you cannot colour table cells.)
 
 A more complete overview of Markdown coding can be found at the [Markdown Guide](https://www.markdownguide.org/cheat-sheet/).
+
+## Listing team members
+Project team members are coded into the configuration file for the website (_\_config.yml_ in the main directory). Each individual is listed using the following format in the section headed "team:":
+```
+  - surname: ""
+    firstname: ""
+    position: ""
+    institution: ""
+    role: ""
+    website: ""
+    twitter: ""
+    github: ""
+```
+(Note the dash before surname: this marks the start of an individual's entry.)
+
+At this stage, _role_ is not actively used on the website. All other values are used to populate the team member profile boxes that appear on the site -- for example, on the [About HCNC](https://nickforddk.github.io/OpenHCNC/about) page. As noted above, _surname_ is the value used to identify team members where individuals are assigned to pages using the _members_ option in the instruction block. 
+
+You are welcome to edit your own profile information, but otherwise avoid editing the configuration file, as this may "break" the website!
