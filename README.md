@@ -11,8 +11,9 @@ The website's content is located in the main OpenHCNC folder, and the folders \_
 - _cover_: Allows a cover image for the page title. Images must be saved in the assets/images directory. Contact Nick if there's a specific image you want to include!
 - _members_: Lists the project team members that are assigned to the relevant item (eg. an article). Individuals are identified by surname, separated by commas and included in square brackets (see below).  
 
-The instruction block starts and ends with three dashes:
+Only include those items that you need for the page. In most cases _title: "INSERT TITLE HERE"_ and _layout: default_ will be sufficient.
 
+The instruction block starts and ends with three dashes:
 ```
 ---
 title: "This is the title of a paper"
