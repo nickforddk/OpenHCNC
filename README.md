@@ -18,6 +18,7 @@ The instruction block starts and ends with three dashes:
 title: "This is the title of a paper"
 subtitle: "And it also has a subtitle"
 members: [Jensen, Hansen, Christiansen]
+layout: default
 ---
 
 Here is the first line of text on the page.
