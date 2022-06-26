@@ -92,9 +92,15 @@ h1 a, h2 a, h3 a {
   color: inherit;
 }
 h2 a::after, h2 a::after, h2 a::after {
-  content: "\2192";
+  content: "\21E2";
   display: inline-block;
   float: right;
+  font-size: 120%;
+  line-height: 1em;
+}
+h2 a:hover, h2 a:focus, h2 a:active {
+  text-decoration: none;
+  color: var(--dark-alt);
 }
 
 h3 {
