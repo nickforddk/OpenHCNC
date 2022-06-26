@@ -66,17 +66,18 @@ h1::after {
   display: block;
   height: var(--border-cap);
   background: linear-gradient(to right, var(--light) 0%, var(--primary) 100%);
-  margin-top: 10px;
+  margin: 10px 0px 30px 0px;
   border-radius: var(--border-curve);
 }
-h1 + p strong:only-child, h1 + p.subtitle {
+h1 + p.subtitle {
   color: var(--dark);
   font-size: var(--font-size--large);
   font-variation-settings: 'wdth' 75;
   font-weight: 500;
+  margin: -30px 0px 30px 0px;
 }
-h1.cover + p strong:only-child, h1.cover + p.subtitle {
-  margin: -18px 0px 30px 0px;
+h1.cover + p.subtitle {
+  margin: -20px 0px 30px 0px;
 }
     
 h2 {
@@ -469,6 +470,7 @@ ul.bio li.github a {
   header li {
     width: fit-content;
     display: inline-block;
+    margin-right: 3px;
   }
   section {
     padding: 50px 20px;
