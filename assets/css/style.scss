@@ -259,12 +259,13 @@ section p em {
 
 blockquote {
   margin: 0px 0px 22px 0px;
-  padding: 10px 20px;
+  padding: 12px 20px;
   font-style: normal;
   font-size: var(--font-size--small);
   background: var(--primary);
   border-radius: var(--border-curve);
   color: var(--white);
+  box-sizing: border-box;
 }
 blockquote blockquote {
   border: var(--border-width) solid var(--light);
@@ -281,6 +282,14 @@ h1 + blockquote, p.subtitle + blockquote {
 }
 blockquote a, blockquote strong, blockquote em {
   color: inherit;
+}
+h1.cover + blockquote {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+h1 + hr, p.subtitle + hr {
+  display: none;
 }
 
 small {
