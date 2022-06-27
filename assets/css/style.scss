@@ -164,22 +164,9 @@ header {
   min-height: 40vh;
 }
 
-/*header li {
-  height: auto;
-  box-shadow: none;
-  background: none;
-  border: var(--border-width) solid var(--light-alt);
-  border-radius: var(--border-curve);
-  font-variation-settings: 'wdth' 75;
+header ul {
+  margin: 0px;
 }
-header li:active, header li:hover {
-  background: none;
-  border: var(--border-width) solid var(--contrast-alt);
-}
-header li a {
-  text-decoration: none;
-}*/
-
 header li {
   height: auto;
   box-shadow: none;
@@ -202,7 +189,6 @@ header li a {
 header li a:active, header li a:hover, header li a:focus {
   border: var(--border-width) solid var(--contrast-alt);
 }
-
 header li a.buttons {
   background: url(../images/link.png) no-repeat;
   background-size: 15px !important;
