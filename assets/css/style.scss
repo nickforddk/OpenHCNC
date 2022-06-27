@@ -273,7 +273,7 @@ blockquote blockquote {
 blockquote *:last-child {
   margin-bottom: 0px;
 }
-h1 + blockquote, p.subtitle + blockquote {
+hr + blockquote {
   background: var(--alert);
   color: var(--black);
   font-size: var(--font-size--medium);
@@ -283,7 +283,7 @@ h1 + blockquote, p.subtitle + blockquote {
 blockquote a, blockquote em, blockquote strong, blockquote p em, blockquote p strong {
   color: inherit;
 }
-h1.cover + blockquote {
+h1.cover + hr + blockquote {
   margin-left: -20px;
   margin-right: -20px;
 }
