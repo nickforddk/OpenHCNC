@@ -11,11 +11,11 @@ layout: default
 
 | Country | Type | Years | HS | Uni | Transcribed | Linked |
 |---|---|---|---|---|---|---|
-| NO | Matrikel | 1813-???? | Y | Y | Y | 1813-1913 |
-| NO | Exams | 1864-1897 | Y | Auto | | |
+| NO | Matrikel | 1813-1913 | Y | Y | Y | Y |
+| NO | Exams | 1864-1897 | Y | | Auto | |
 | NO | Exams | 1900-1943 | Y | | | |
 |---|---|---|---|---|---|---|
-| DK | Matrikel | 1760-1791 | Y | | Manual | Manual  |
+| DK | Matrikel | 1760-1791 | Y | | Manual | Manual |
 | DK | Exams | 1792-1801 | Y | Y | Manual | |
 | DK | Matrikel | 1802-1804 | Y | | Manual | Manual |
 | DK | Exams | 1805-1820 | Y | | Auto | |
