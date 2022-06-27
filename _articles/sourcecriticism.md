@@ -5,7 +5,6 @@ layout: default
 members: [Ranestad, Ford, Sharp]
 ---
 
----
 > It turns out that graduates are not the best fillers in of forms. Many have not submitted forms at all, and many have filled them in very incompletely. It is interesting to note, in particular in this circle of people, such an aversion to the form of the present, and I have neither wanted to challenge the opinion of my student comrades, nor take on the task of trying to correct and add information where the information is not complete. I have taken the forms as they were, although I have often known or had the feeling that something has been left out.
 > 
 > _-Norwegian Class of 1926 yearbook_
