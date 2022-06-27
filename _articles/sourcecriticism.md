@@ -5,14 +5,7 @@ layout: default
 members: [Ranestad, Ford, Sharp]
 ---
 
-From the introduction to the Norwegian Class of 1926 yearbook:
+_From the introduction to the Norwegian Class of 1926 yearbook:_
 > It turns out that graduates are not the best fillers in of forms. Many have not submitted forms at all, and many have filled them in very incompletely. It is interesting to note, in particular in this circle of people, such an aversion to the form of the present, and I have neither wanted to challenge the opinion of my student comrades, nor take on the task of trying to correct and add information where the information is not complete. I have taken the forms as they were, although I have often known or had the feeling that something has been left out.
 
 Human capital is a central concept in economics, economic history, and other fields, but it is often measured using simple measures such as literacy and years of schooling. Unique sources from Denmark and Norway offer the potential to construct a far more comprehensive measure. From the early nineteenth century until after the Second World War, these countries had the tradition of publishing biographies of all high school graduates, usually 25 and 50 years after graduation, containing information on their entire careers, including places worked, travels, achievements, publications, and more. We discuss the sources and their potential for furthering our understanding of the role of human capital for development. Extensive source criticism reveals both strengths and weaknesses, but most importantly confirms that such biographical information can offer promising perspectives towards furthering our understanding of the concept of human capital, and its role in society.
-
-## Graduate cohorts with biographies
-
-|	Totals by decade: |	1810-19	|	1820-29	|	1830-39	|	1840-49	|	1850-59	|	1860-69	|	1870-79	|	1880-89	|	1890-99	|	1900-09	|	1910-19	|	1920-29	|	1930-39 |	1940-49 |
-|	--- |	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	--- |	--- |
-|	Denmark |	1	|	9	|	9	|	10 | 10	|	6	|	9	|	8	|	8	|	9	|	8	|	3	|	|	|	
-|	Norway	|	|	| 1	|	0	|	7	|	9	|	10 | 10 |	10 | 10 | 10 | 10 | 10 | 4
