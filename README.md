@@ -7,7 +7,7 @@ The website is constructed with GitHub pages using files written in Markdown (.m
 This brief guide to editing the website discusses:
 1. which [folders and files](#folders-and-files) can be edited
 1. how to [format pages using Markdown](#formatting-in-markdown)
-1. where details of [team members](#listing-team-members) are saved.
+1. where details of [team members](#listing-team-members) are saved
 
 ## Folders and files
 The website's content is located in the main `OpenHCNC` folder (where you are now), and the folders:
@@ -16,6 +16,12 @@ The website's content is located in the main `OpenHCNC` folder (where you are no
 
 The other folders contain the nuts and bolts of the site and its design. Please only edit files in the folders listed above! 😊
 
+### Editing and saving
+To edit the content of a website page, click on the relevant Markdown (.md) file here in GitHub, then find the pencil icon ("Edit this file"). This will open up the editor, where you can make changes to the page's text. When you are finished editing, scroll down and click on the green _Commit changes_ button: this will save the updated page content.
+
+Any changes you make to the site will not appear immediately. Rather, edits require the site to be recompiled, which may take a couple of minutes. You can follow the progress of any updates under the "Actions" tab in GitHub. Once the status indicator switches to a green tick ("This workflow run completed successfully"), you should be able to see your changes live on the relevant website page. Note that you may need to refresh the page.
+
+### The instruction block
 Each Markdown (.md) file includes basic instructions to generate the page. At a minimum, this includes the page _title_ and _layout_ (usually "default"). Other prompts that can be included in the instruction block are:
 - _subtitle_: An extension of the page title. Particularly relevant for articles.
 - _status_: An optional one-word descriptor for articles. Useful for noting that a paper is ["Completed"](https://nickforddk.github.io/OpenHCNC/articles/rivista).
@@ -86,7 +92,7 @@ When the page is generated, you then get:
 A more complete overview of Markdown coding can be found at the [Markdown Guide](https://www.markdownguide.org/cheat-sheet/).
 
 ## Listing team members
-Project team members are coded into the configuration file for the website (`_config.yml` in the main directory). Each individual is listed using the following format in the section headed  _team:_:
+Project team members are coded into the configuration file for the website (`_config.yml` in the main directory). Each individual is listed using the following format in the section headed _team:_:
 ```
   - surname: ""
     firstname: ""
