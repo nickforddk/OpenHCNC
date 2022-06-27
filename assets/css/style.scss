@@ -283,12 +283,12 @@ hr + blockquote {
 blockquote a, blockquote em, blockquote strong, blockquote p em, blockquote p strong {
   color: inherit;
 }
-h1.cover + hr + blockquote {
+h1.cover + blockquote, h1.cover + hr + blockquote {
   margin-left: -20px;
   margin-right: -20px;
 }
 
-h1 + hr, p.subtitle + hr {
+h1 + hr, p.subtitle + hr, h2 + hr, h3 + hr {
   display: none;
 }
 
@@ -491,6 +491,10 @@ ul.bio li.github a {
     height: 20vh;
     border-radius: 0px;
     margin-top: -50px;
+  }
+  h1.cover + blockquote, h1.cover + hr + blockquote {
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .strap.cover {
     margin-top: calc(-50px + 1em);
