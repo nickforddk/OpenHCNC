@@ -280,7 +280,7 @@ h1 + blockquote, p.subtitle + blockquote {
   font-variation-settings: 'wdth' 75;
   font-weight: 500;
 }
-blockquote a, blockquote strong, blockquote em {
+blockquote a, blockquote em, blockquote strong, blockquote p em, blockquote p strong {
   color: inherit;
 }
 h1.cover + blockquote {
