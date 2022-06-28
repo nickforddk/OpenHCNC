@@ -40,24 +40,6 @@ Instances: 1 or Multiple
 
 ## Relation mapping
 
-<div class="mermaid">
-flowchart TB
-    subgraph sub1
-        A1(Father) & A2(Mother) --> B1(Student)
-        B1 -.-> C(Child)
-    end
-    subgraph sub2
-        A3(Father) & A4(Mother) -.-> B2(Spouse)
-        B2 -.-> C
-    end
-    B1 -.-> B2
-    classDef default fill:none,stroke:#4361EE,stroke-width:2px
-    classDef hide display:none
-    classDef focus fill:#F72585,stroke-width:0px,color:#FFFFFF
-    class sub1,sub2 hide
-    class B1 focus
-</div>
-
 | Variable | Source(s) | Instances | Note |
 |---|---|---|---|
 | Student | Kl, Bg, Ft |  | | 
