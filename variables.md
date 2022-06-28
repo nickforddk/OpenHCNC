@@ -40,6 +40,41 @@ Instances: 1 or Multiple
 
 ## Relation mapping
 
+```mermaid
+erDiagram
+    FATHER ||--|{ STUDENT
+    MOTHER ||--|{ STUDENT
+    STUDENT }|--o{ SPOUSE
+    FATHER (Spouse) ||--|{ SPOUSE
+    MOTHER (Spouse) ||--|{ SPOUSE
+    STUDENT ||--o{ CHILD
+    SPOUSE ||--o{ CHILD
+    FATHER {
+        int ID
+        string name
+        string occupation
+    }
+    MOTHER {
+        int ID
+        string name
+        string maiden-name
+    }       
+    STUDENT {
+        int ID
+        string name
+        string maiden-name "if female"
+    }
+    SPOUSE {
+        int ID
+        string name
+        string maiden-name "if female"
+    }   
+    CHILD {
+        int ID
+        string name
+    }
+```
+
 | Variable | Source(s) | Instances | Note |
 |---|---|---|---|
 | Student | Kl, Bg, Ft |  | | 
