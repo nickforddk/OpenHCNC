@@ -40,18 +40,6 @@ Instances: 1 or Multiple
 
 ## Relation mapping
 
-```mermaid
-flowchart TD
-    A11[Father] <-- B1[Student]
-    A12[Mother] <-- B1[Student]
-    A21[Father] <-.- B2[Spouse]
-    A22[Mother] <-.- B2[Spouse]
-    B1[Student] -.-> B2[Spouse]
-    B1[Student] -.-> C[Child]
-    B2[Spouse] -.-> C[Child]
-    style B1 fill:var(--contrast),color:(--white)
-```
-
 | Variable | Source(s) | Instances | Note |
 |---|---|---|---|
 | Student | Kl, Bg, Ft |  | | 
