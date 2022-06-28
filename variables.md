@@ -40,7 +40,7 @@ Instances: 1 or Multiple
 
 ## Relation mapping
 
-```mermaid
+<div class="mermaid">
 flowchart TB
     subgraph sub1
         A1(Father) & A2(Mother) --> B1(Student)
@@ -56,7 +56,7 @@ flowchart TB
     classDef focus fill:#F72585,stroke-width:0px,color:#FFFFFF
     class sub1,sub2 hide
     class B1 focus
-```
+</div>
 
 | Variable | Source(s) | Instances | Note |
 |---|---|---|---|
