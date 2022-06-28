@@ -41,38 +41,15 @@ Instances: 1 or Multiple
 ## Relation mapping
 
 ```mermaid
-erDiagram
-    FATHER ||--|{ STUDENT
-    MOTHER ||--|{ STUDENT
-    STUDENT }|--o{ SPOUSE
-    FATHER (Spouse) ||--|{ SPOUSE
-    MOTHER (Spouse) ||--|{ SPOUSE
-    STUDENT ||--o{ CHILD
-    SPOUSE ||--o{ CHILD
-    FATHER {
-        int ID
-        string name
-        string occupation
-    }
-    MOTHER {
-        int ID
-        string name
-        string maiden-name
-    }       
-    STUDENT {
-        int ID
-        string name
-        string maiden-name "if female"
-    }
-    SPOUSE {
-        int ID
-        string name
-        string maiden-name "if female"
-    }   
-    CHILD {
-        int ID
-        string name
-    }
+flowchart TD
+    A11[Father] <-- B1[Student]
+    A12[Mother] <-- B1[Student]
+    A21[Father] <-.- B2[Spouse]
+    A22[Mother] <-.- B2[Spouse]
+    B1[Student] -.-> B2[Spouse]
+    B1[Student] -.-> C[Child]
+    B2[Spouse] -.-> C[Child]
+    style B1 fill:var(--contrast),color:(--white)
 ```
 
 | Variable | Source(s) | Instances | Note |
