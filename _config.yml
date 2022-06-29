@@ -38,7 +38,7 @@ team:
   - surname: "Ranestad"
     firstname: "Kristin"
     position: "Senior lecturer"
-    institution: "University of Oslo, Lund University"
+    institution: [University of Oslo, Lund University]
     role: ""
     website: ""
     twitter: "KristinRanestad"
