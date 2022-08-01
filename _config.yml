@@ -91,14 +91,7 @@ team:
     website: ""
     twitter: ""
     github: ""
-  - surname: "Tonning"
-    firstname: "Lise Wettergreen"
-    position: "Research assistant"
-    institution: "University of Tromsø - The Arctic University of Norway"
-    role: ""
-    website: ""
-    twitter: ""
-    github: ""
+
 
 ignore:
   - surname: ""
