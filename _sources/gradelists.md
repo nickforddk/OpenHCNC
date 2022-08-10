@@ -24,8 +24,10 @@ layout: default
 | DK | Exams | 1864-1920 | Y | | | |
 
 ## Detailed content list
+---
 > Work in progress!
-- * _Total: Cohort_ column refers to the number of graduates of the university admission exam or high school graduation exam for the given year.
+
+- _Total: Cohort_ column refers to the number of graduates of the university admission exam or high school graduation exam for the given year.
 
 | Country | Year | Source/s | Total: Cohort* | Grades: HS subjects | Grades: HS final grade | Grades: Uni subjects | Grades: Uni final grade |
 |---|---|---|---|---|---|---|---|
