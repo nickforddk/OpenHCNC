@@ -41,9 +41,9 @@ layout: default
 | DK | 1875- | KUÅ | | | | |
 
 ### Sources
-- Mkl: _Studentermatrikel_ (eg. _Liste/Fortegnelse over de immatrikulerede studendende..._), with lists of examen atrium graduates
+- Mkl: _Studentermatrikel_ (eg. _Liste/Fortegnelse over de immatrikulerede studerende..._), with lists of examen atrium graduates
 - UJ: _Universitetsjournaler_
 - Ann: _Universitets- og Skole-Annaler_
 - E23: Engelstoft 1823, _Efterretninger angaaende Kjøbenhavns Universitet, Sorøe Academie og de læede Skoler_
 - AT: _Akademiske Tidender_
-- KUÅ: _Københavns Universitets Årbog_, _Meddelser angaaende Københavns Universitet_ (and similar titles)
+- KUÅ: _Københavns Universitets Årbog_; _Meddelser angaaende Københavns Universitet_ (and similar titles)
