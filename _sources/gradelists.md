@@ -44,6 +44,6 @@ layout: default
 - Mkl: _Studentermatrikel_ (eg. _Liste/Fortegnelse over de immatrikulerede studerende..._), with lists of examen atrium graduates
 - UJ: _Universitetsjournaler_
 - Ann: _Universitets- og Skole-Annaler_
-- E23: Engelstoft 1823, _Efterretninger angaaende Kjøbenhavns Universitet, Sorøe Academie og de læede Skoler_
+- E23: Engelstoft 1823, _Efterretninger angaaende Kjøbenhavns Universitet, Sorøe Academie og de lærde Skoler_
 - AT: _Akademiske Tidender_
 - KUÅ: _Københavns Universitets Årbog_; _Meddelser angaaende Københavns Universitet_ (and similar titles)
