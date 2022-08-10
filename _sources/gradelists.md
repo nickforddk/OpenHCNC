@@ -24,6 +24,7 @@ layout: default
 | DK | Exams | 1864-1920 | Y | | | |
 
 ## Detailed content list
+
 ---
 > Work in progress!
 
