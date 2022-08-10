@@ -28,21 +28,19 @@ layout: default
 ---
 > Work in progress!
 
-- _Total: Cohort_ column refers to the number of graduates of the university admission exam or high school graduation exam for the given year.
+| Country | Year | Source/s (see below) | Grades: HS subjects | Grades: HS final grade | Grades: Uni subjects | Grades: Uni final grade |
+|---|---|---|---|---|---|---|
+| NO | 1813 | | | | | |
+|---|---|---|---|---|---|---|
+| DK | -1801 | UJ | | | | |
+| DK | 1802-1805 | | | | | |
+| DK | 1806-1813 | Mkl, Ann | | | | |
+| DK | 1814-1823 | Mkl, E23 | | | | |
+| DK | 1824-1836 | Mkl, AT | | | | |
+| DK | 1837-1874 | Mkl, KUÅ | | | | |
+| DK | 1875- | KUÅ | | | | |
 
-| Country | Year | Source/s | Total: Cohort* | Grades: HS subjects | Grades: HS final grade | Grades: Uni subjects | Grades: Uni final grade |
-|---|---|---|---|---|---|---|---|
-| NO | 1813 | | | | | | |
-|---|---|---|---|---|---|---|---|
-| DK | -1801 | UJ | | | | | |
-| DK | 1802-1805 | | | | | | |
-| DK | 1806-1813 | Mkl, Ann | | | | | |
-| DK | 1814-1823 | Mkl, E23 | | | | | |
-| DK | 1824-1836 | Mkl, AT | | | | | |
-| DK | 1837-1874 | Mkl, KUÅ | | | | | |
-| DK | 1875- | KUÅ | | | | | |
-
-### Sources:
+### Sources
 - Mkl: _Studentermatrikel_ (eg. _Liste/Fortegnelse over de immatrikulerede studendende..._), with lists of examen atrium graduates
 - UJ: _Universitetsjournaler_
 - Ann: _Universitets- og Skole-Annaler_
