@@ -35,17 +35,19 @@ layout: default
 | DK | -1801 | UJ | | Y | | Y |
 | DK | 1802-1804 | | | | | |
 | DK | 1805-1813 | Mkl, Ann | Y | Y | | Y |
-| DK | 1814-1823 | Mkl, E23 | Y | Y | | _½_ |
+| DK | 1814-1823 | Mkl, E23 | Y | Y | | ½ |
 | DK | 1824-1836 | Mkl, AT | Y | Y | | Y |
 | DK | 1837-1839 | Mkl, KUÅ | Y | Y | | Y |
 | DK | 1840-1874 | Mkl, KUÅ | Y | Y | Y | Y |
 | DK | 1875-1883 | KUÅ | Y | Y | Y | Y |
 | DK | 1884-1915 | KUÅ | | Y | Y | Y |
-| DK | 1916-1919 | KUÅ* | | | _½_ | _½_ |
+| DK | 1916-1919 | KUÅ* | | | ½ | ½ |
 | DK | 1920- | KUÅ | | Y | | Y |
 
-> _½_ denotes content only partially available.  
-_*_ Grades only available for the Technical University (_Den Polytekniske Læreanstalt_)
+<small>
+½ denotes content only partially available.
+* Grades only available for the Technical University of Denmark (<em>Den Polytekniske Læreanstalt</em>)
+</small>
 
 ### Sources
 - Mkl: _Studentermatrikel_ (eg. _Liste/Fortegnelse over de immatrikulerede studerende..._), with lists of examen atrium graduates
