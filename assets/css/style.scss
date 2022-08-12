@@ -276,7 +276,7 @@ blockquote a, blockquote em, blockquote strong, blockquote p em, blockquote p st
 blockquote *:last-child {
   margin-bottom: 0px;
 }
-blockquote *:last-child:not(:first-child) > em:only-child {
+blockquote p:last-child:not(:first-child) > em:only-child {
   border-top: var(--border-width) solid var(--light-alt);
   padding-top: 12px;
   color: var(--light-alt);
