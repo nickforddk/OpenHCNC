@@ -42,7 +42,7 @@ layout: default
 | DK | 1875-1883 | KUÅ | Y | Y | Y | Y |
 | DK | 1884-1915 | KUÅ | | Y | Y | Y |
 | DK | 1916-1919 | KUÅ* | | | _½_ | _½_ |
-| DK | 19XX- | KUÅ | | Y | | Y |
+| DK | 1920- | KUÅ | | Y | | Y |
 
 > _½_ denotes content only partially available.  
 _*_ Grades only available for the Technical University (_Den Polytekniske Læreanstalt_)
