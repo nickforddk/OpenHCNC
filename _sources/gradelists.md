@@ -45,7 +45,7 @@ layout: default
 | DK | 1920- | KUÅ | | Y | | Y |
 
 <small>½ denotes content only partially available.  
-_*_ Grades only available for the Technical University of Denmark (_Den Polytekniske Læreanstalt_)</small>
+_*_ Grades only available for the Technical University of Denmark (_Den Polytekniske Læreanstalt_).</small>
 
 
 ### Sources
