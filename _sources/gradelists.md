@@ -47,9 +47,9 @@ layout: default
 | DK | 1916-1920 | KUÅ** | | | ½ | ½ |
 | DK | 1921- | KUÅ | | Y | | Y |
 
-> ½ denotes content only partially available.  
-> _*_ ACP Lindes volume _Meddelser angaaende Københavns Universitet ..._ exists for the years 1849 to 1857, but has not been digitised.  
-> _**_ In the digitised volume, grades are available only for the Technical University of Denmark (_Den Polytekniske Læreanstalt_).
+> - ½ denotes content only partially available.  
+> - _*_ ACP Lindes volume _Meddelser angaaende Københavns Universitet ..._ exists for the years 1849 to 1857, but has not been digitised.  
+> - _**_ In the digitised volume, grades are available only for the Technical University of Denmark (_Den Polytekniske Læreanstalt_).
 
 
 ### Sources
