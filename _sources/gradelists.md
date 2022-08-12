@@ -48,7 +48,7 @@ layout: default
 | DK | 1921- | KUÅ | | Y | | Y |
 
 > - ½ denotes content only partially available.  
-> - _*_ ACP Lindes volume _Meddelser angaaende Københavns Universitet ..._ exists for the years 1849 to 1857, but has not been digitised.  
+> - _*_ ACP Lindes volume _Meddelelser angaaende Københavns Universitet ..._ exists for the years 1849 to 1857, but has not been digitised.  
 > - _**_ In the digitised volume, grades are available only for the Technical University of Denmark (_Den Polytekniske Læreanstalt_).
 
 
@@ -57,6 +57,6 @@ layout: default
 - AT: _Akademiske Tidender_
 - E23: Engelstoft 1823, _Efterretninger angaaende Kjøbenhavns Universitet, Sorøe Academie og de lærde Skoler_
 - KUÅ: _Københavns Universitets Årbog_ (and similar titles)
-- LM: ACP Linde, _Meddelser angaaende Københavns Universitet_
+- LM: ACP Linde, _Meddelelser angaaende Københavns Universitet_
 - Mkl: _Studentermatrikel_ (eg. _Liste/Fortegnelse over de immatrikulerede studerende..._), with lists of examen atrium graduates
 - UJ: _Universitetsjournaler_
