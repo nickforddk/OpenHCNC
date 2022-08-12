@@ -286,6 +286,14 @@ blockquote a, blockquote em, blockquote strong, blockquote p em, blockquote p st
 h1.cover + blockquote, h1.cover + hr + blockquote {
   margin: -10px -20px 30px -20px;
 }
+table + blockquote {
+  background: none;
+  margin-top: -32px;
+  padding: 12px 10px;
+  color: var(--dark);
+  border-radius: 0px;
+  border-bottom: 2px solid var(--tertiary);
+}
 
 h1 + hr, p.subtitle + hr, h2 + hr, h3 + hr {
   display: none;
