@@ -38,7 +38,9 @@ layout: default
 | DK | 1814-1823 | Mkl, E23 | Y | Y | | ½ |
 | DK | 1824-1836 | Mkl, AT | Y | Y | | Y |
 | DK | 1837-1839 | Mkl, KUÅ | Y | Y | | Y |
-| DK | 1840-1874 | Mkl, KUÅ | Y | Y | Y | Y |
+| DK | 1840-1848 | Mkl, KUÅ | Y | Y | Y | Y |
+| DK | 1849-1856 | Mkl | | Y | | |
+| DK | 1857-1874 | Mkl, KUÅ | Y | Y | Y | Y |
 | DK | 1875-1883 | KUÅ | Y | Y | Y | Y |
 | DK | 1884-1915 | KUÅ | | Y | Y | Y |
 | DK | 1916-1920 | KUÅ* | | | ½ | ½ |
