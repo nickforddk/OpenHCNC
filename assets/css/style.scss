@@ -270,8 +270,16 @@ blockquote {
 blockquote blockquote {
   border: var(--border-width) solid var(--light);
 }
+blockquote a, blockquote em, blockquote strong, blockquote p em, blockquote p strong {
+  color: inherit;
+}
 blockquote *:last-child {
   margin-bottom: 0px;
+}
+blockquote *:last-child:not(:first-child) > em:only-child {
+  border-top: var(--border-width) solid var(--light-alt);
+  padding-top: 12px;
+  color: var(--light-alt);
 }
 hr + blockquote {
   background: var(--alert);
@@ -280,12 +288,6 @@ hr + blockquote {
   font-variation-settings: 'wdth' 75;
   font-weight: 500;
 }
-blockquote a, blockquote em, blockquote strong, blockquote p em, blockquote p strong {
-  color: inherit;
-}
-h1.cover + blockquote, h1.cover + hr + blockquote {
-  margin: -10px -20px 30px -20px;
-}
 table + blockquote {
   background: none;
   margin-top: -32px;
@@ -293,6 +295,9 @@ table + blockquote {
   color: var(--dark);
   border-radius: 0px;
   border-bottom: 2px solid var(--tertiary);
+}
+h1.cover + blockquote, h1.cover + hr + blockquote {
+  margin: -10px -20px 30px -20px;
 }
 
 h1 + hr, p.subtitle + hr, h2 + hr, h3 + hr {
