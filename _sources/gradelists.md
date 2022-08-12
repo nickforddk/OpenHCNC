@@ -46,7 +46,7 @@ layout: default
 
 <small>
 ½ denotes content only partially available.
-* Grades only available for the Technical University of Denmark (<em>Den Polytekniske Læreanstalt</em>)
+_*_ Grades only available for the Technical University of Denmark (_Den Polytekniske Læreanstalt_)
 </small>
 
 ### Sources
