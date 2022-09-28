@@ -35,7 +35,7 @@ layout: default
 | DK | -1801 | Mkl, UJ | | Y | | Y |
 | DK | 1802-1804 | Mkl | | Y | | |
 | DK | 1805-1813 | Mkl, Ann | Y | Y | | Y |
-| DK | 1814-1823 | Mkl, E23 | Y | Y | | ½ |
+| DK | 1814-1823 | Mkl, E23, NTB* | Y | Y | | Y |
 | DK | 1824-1836 | Mkl, AT | Y | Y | | Y |
 | DK | 1837-1839 | Mkl, KUÅ | Y | Y | | Y |
 | DK | 1840-1848 | Mkl, KUÅ | Y | Y | Y | Y |
@@ -44,11 +44,12 @@ layout: default
 | DK | 1864-1874 | Mkl, KUÅ | Y | Y | Y | Y |
 | DK | 1875-1883 | KUÅ | Y | Y | Y | Y |
 | DK | 1884-1915 | KUÅ | | Y | Y | Y |
-| DK | 1916-1920 | KUÅ* | | | ½ | ½ |
+| DK | 1916-1920 | KUÅ** | | | ½ | ½ |
 | DK | 1921- | KUÅ | | Y | | Y |
 
-> - ½ denotes content only partially available.  
-> - _*_ In the digitised volume, grades are available only for the Technical University of Denmark (_Den Polytekniske Læreanstalt_).
+> - ½ denotes content only partially available.
+> - _*_ For 1814-22, only grades for law and medicine graduates are recorded in E23. Theology students are recorded separately in NTB.
+> - _**_ In the digitised volume, grades are available only for the Technical University of Denmark (_Den Polytekniske Læreanstalt_).
 
 
 ### Sources
@@ -59,3 +60,4 @@ layout: default
 - LM: ACP Linde, _Meddelelser angaaende Københavns Universitet_
 - Mkl: _Studentermatrikel_ (eg. _Liste/Fortegnelse over de immatrikulerede studerende..._), with lists of examen atrium graduates
 - UJ: _Universitetsjournaler_
+- NTB: Møller 1823, _Nyt Theologisk Bibliothek_ (3. bind)
