@@ -12,15 +12,15 @@ layout: default
 | Country | Type | Years | HS | Uni | Transcribed | Linked |
 |---|---|---|---|---|---|---|
 | NO | Matrikel | 1813-1913 | Y | Y | Y | Y |
-| NO | Exams | 1813-1863 | Y | | Manual (handwritten) | |
-| NO | Exams | 1864-1897 | Y | | | |
-| NO | Exams | 1900-1943 | Y | | | |
+| NO | Exams | 1813-1863 | Y | | Manual | |
+| NO | Exams | 1864-1897 | Y | | Auto | |
+| NO | Exams | 1900-1943 | Y | Y | Auto | |
 |---|---|---|---|---|---|---|
 | DK | Matrikel | 1760-1791 | Y | | Manual | Auto/manual |
 | DK | Exams | 1792-1801 | Y | Y | Manual |Auto/manual |
 | DK | Matrikel | 1802-1804 | Y | | Manual | Auto/manual |
-| DK | Exams | 1805-1820 | Y | | Auto |Auto/manual |
-| DK | Exams | 1821-1849 | Y | | Auto |In progress |
+| DK | Exams | 1805-1820 | Y | Y | Auto/manual |Auto/manual |
+| DK | Exams | 1821-1849 | Y | Y | Auto/manual |In progress |
 | DK | Exams | 1850-1864 | Y | Y | Auto |In progress |
 | DK | Exams | 1864-1920 | Y | Y | | |
 
