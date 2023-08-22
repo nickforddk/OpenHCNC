@@ -5,4 +5,4 @@ layout: default
 members: [Ranestad, Ford, Sharp, Dahl, Westermann]
 ---
 
-Still to come
+Description to follow.
