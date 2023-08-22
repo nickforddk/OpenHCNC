@@ -83,14 +83,7 @@ team:
     website: ""
     twitter: ""
     github: ""
-  - surname: "Shvetsova"
-    firstname: "Elena"
-    position: "Research assistant"
-    institution: "University of Tromsø - The Arctic University of Norway"
-    role: ""
-    website: ""
-    twitter: ""
-    github: ""
+
 
 
 ignore:
@@ -98,6 +91,14 @@ ignore:
     firstname: ""
     position: ""
     institution: ""
+    role: ""
+    website: ""
+    twitter: ""
+    github: ""
+  - surname: "Shvetsova"
+    firstname: "Elena"
+    position: "Research assistant"
+    institution: "University of Tromsø - The Arctic University of Norway"
     role: ""
     website: ""
     twitter: ""
