@@ -26,7 +26,7 @@ Each Markdown (.md) file includes basic instructions to generate the page. At a 
 - _subtitle_: An extension of the page title. Particularly relevant for articles.
 - _status_: An optional one-word descriptor for articles. Useful for noting that a paper is ["Completed"](https://nickforddk.github.io/OpenHCNC/articles/rivista).
 - _cover_: Allows a cover image for the page title. Images must be saved in the assets/images directory. Contact Nick if there's a specific image you want to include!
-- _members_: Lists the project team members that are assigned to the relevant item (eg. an article). Individuals are identified by surname, separated by commas and included in square brackets (see below).  
+- _members_: Lists the project team members that are assigned to the relevant item (eg. an article). Individuals are identified by surname (or a username), separated by commas and included in square brackets (see below).  
 
 Only include those items that you need for the page. In most cases _title: "INSERT TITLE HERE"_ and _layout: default_ will be sufficient.
 
@@ -92,7 +92,7 @@ When the page is generated, you then get:
 A more complete overview of Markdown coding can be found at the [Markdown Guide](https://www.markdownguide.org/cheat-sheet/).
 
 ## Listing team members
-Project team members are coded into the configuration file for the website (`_config.yml` in the main directory). Each individual is listed using the following format in the section headed _team:_:
+Project team members are coded into the configuration file for the website (`_config.yml` in the main directory). Each individual is listed using the following format in the section headed _team_:
 ```
   - surname: ""
     firstname: ""
@@ -105,7 +105,7 @@ Project team members are coded into the configuration file for the website (`_co
 ```
 (Note the dash before surname: this marks the start of an individual's entry.)
 
-At this stage, _role_ is not actively used on the website. All other values are used to populate the team member profile boxes that appear on the site -- for example, on the [About HCNC](https://nickforddk.github.io/OpenHCNC/about) page. As noted above, _surname_ is the value used to identify team members where individuals are assigned to pages using the _members_ option in the instruction block. 
+At this stage, _role_ is not actively used on the website. All other values are used to populate the team member profile boxes that appear on the site -- for example, on the [About HCNC](https://nickforddk.github.io/OpenHCNC/about) page. As noted above, _surname_ is the value used to identify team members where individuals are assigned to pages using the _members_ option in the instruction block. For cases where a surname is shared by multiple individuals, a _username_ field can also be included: just add an extra line below _firstname_ with `username: "NAME HERE"`. To avoid confusion, usernames should be entirely lower case (eg. "ford_n").
 
 You are welcome to edit your own profile information, but otherwise avoid editing the configuration file, as this may "break" the website!
 
