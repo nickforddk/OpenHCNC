@@ -106,6 +106,9 @@
         <ul>
         {% if site.github.is_project_page %}
           <li>Maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></li>
+        {% endif %}
+        {% if site.github.is_user_page %}
+          <li>View my <a href="{{ site.github.owner_url }}">GitHub Profile</a></li>
         {% endif %}   
           <li>Hosted on <a href="https://pages.github.com">GitHub Pages</a></li>
         </ul>
