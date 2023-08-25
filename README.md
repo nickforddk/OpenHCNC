@@ -1,3 +1,9 @@
+
+# Archived!
+The HCNC website has moved accounts! Update your bookmarks to: https://hcnordics.github.io/
+
+---
+
 # Human Capital in the Nordic Countries
 This GitHub repository hosts files for the project website, and is intended for use only by project team members. The project website can be found at: https://nickforddk.github.io/OpenHCNC/
 
